@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- app -->
+    <color name="brand">#243e77</color>
+    <color name="brand_dark">#1c3769</color>
+    <color name="brand_disabled">#33243e77</color>
+    <color name="brand_transparent">#99243e77</color>
+
+    <color name="def_text_color_disabled">@color/brand_disabled</color>
+    <color name="def_hint_color">@color/def_text_color_disabled</color>
+
+    <!-- override text color for inactive stroke of edit text -->
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">
+        @color/def_hint_color
+    </color>
+
+    <color name="red">#ea1212</color>
+    <color name="red_disabled">#33ed3626</color>
+
+    <color name="white_disabled">#33ffffff</color>
+    <color name="white_transparent">#99ffffff</color>
+
+    <color name="green">#67A812</color>
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lexicon</string>
+
+    <string name="next">Next</string>
+
+    <!-- bottom navigation -->
+    <string name="trains">Trains</string>
+    <string name="glossary">Glossary</string>
+
+    <!-- home -->
+    <string name="numeric_10">10</string>
+    <string name="numeric_20">20</string>
+    <string name="numeric_30">30</string>
+    <string name="all">All</string>
+    <string name="add_word">Add word</string>
+
+    <!-- training -->
+    <string name="irregular_verbs">Irregular Verbs</string>
+    <string name="constructor">Constructor</string>
+    <string name="ru_en">RU-EN</string>
+    <string name="en_ru">EN-RU</string>
+
+    <!-- irregular verbs -->
+    <string name="infinitive">Infinitive</string>
+    <string name="past">Past</string>
+    <string name="past_participle">Past Participle</string>
+
+    <string name="empty_string" translatable="false" />
+</resources>

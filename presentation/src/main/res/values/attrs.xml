@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="reverseColor" format="color" />
+    <attr name="reverseDarkColor" format="color" />
+    <attr name="reverseDisabledColor" format="color" />
+    <attr name="reverseTransparentColor" format="color" />
+
+    <attr name="baseColor" format="color" />
+    <attr name="baseDisabledColor" format="color" />
+
+    <attr name="errorColor" format="color" />
+    <attr name="errorDisabledColor" format="color" />
+
+    <attr name="positiveColor" format="color"/>
+</resources>

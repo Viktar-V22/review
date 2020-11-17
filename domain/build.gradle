@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation project(':interactors')
+    implementation project(':boundaries')
+    implementation project(':core:common')
+
+    def dependencies = rootProject.ext.dependencies
+    implementation dependencies.kotlin
+    implementation dependencies.inject
+
+    implementation dependencies.coroutines
+}

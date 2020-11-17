@@ -1,0 +1,9 @@
+rootProject.name = "lexicon"
+include ':app'
+include ':presentation'
+include ':data'
+include ':interactors'
+include ':boundaries'
+include ':domain'
+include ':core:common'
+include ':core:android'

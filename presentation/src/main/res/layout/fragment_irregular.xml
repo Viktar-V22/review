@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_ru"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/def_double_margin"
+            android:gravity="center"
+            android:text="@{form.ru}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="резать" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/def_margin"
+            android:scaleType="centerCrop"
+            android:visibility="@{form.keyboard ? View.GONE : View.VISIBLE}"
+            app:errorHolder="@{@drawable/ic_error_load}"
+            app:layout_constraintEnd_toEndOf="@id/tv_ru"
+            app:layout_constraintStart_toStartOf="@id/tv_ru"
+            app:layout_constraintTop_toBottomOf="@id/tv_ru"
+            app:leftBottomCorner="@{@dimen/def_radius}"
+            app:leftTopCorner="@{@dimen/def_radius}"
+            app:placeholder="@{@drawable/ic_progress_load}"
+            app:rightBottomCorner="@{@dimen/def_radius}"
+            app:rightTopCorner="@{@dimen/def_radius}"
+            app:url="@{form.imageUrl}"
+            tools:src="@drawable/ic_progress_question" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_infinitive"
+            style="@style/AppTheme.IrregularInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/def_margin"
+            android:layout_marginTop="@dimen/def_margin"
+            android:layout_marginEnd="@dimen/def_margin"
+            android:hint="@string/infinitive"
+            app:error="@{form.infinitiveError}"
+            app:layout_constraintBottom_toTopOf="@id/input_past"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_image"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:result="@{form.infinitiveResult}"
+            app:suffixText="@{form.infinitiveTranscription}">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_infinitive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="@{!form.verified}"
+                android:imeOptions="actionNext"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:nextFocusDown="@id/et_past"
+                android:text="@={form.infinitive}"
+                app:crossLine="@{form.infinitiveResult == Result.NEGATIVE}"
+                app:requestFocus="@{!form.verified &amp;&amp; form.requestFocus == InputField.INFINITIVE}" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:id="@+id/speech_infinitive"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="@{form.verified ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toBottomOf="@id/input_infinitive"
+            app:layout_constraintEnd_toEndOf="@id/input_infinitive"
+            app:layout_constraintStart_toStartOf="@id/input_infinitive"
+            app:layout_constraintTop_toTopOf="@id/input_infinitive" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_past"
+            style="@style/AppTheme.IrregularInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/def_half_margin"
+            android:hint="@string/past"
+            app:error="@{form.pastError}"
+            app:layout_constraintBottom_toTopOf="@id/input_past_participle"
+            app:layout_constraintEnd_toEndOf="@id/input_infinitive"
+            app:layout_constraintStart_toStartOf="@id/input_infinitive"
+            app:layout_constraintTop_toBottomOf="@id/input_infinitive"
+            app:result="@{form.pastResult}"
+            app:suffixText="@{form.pastTranscription}">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_past"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="@{!form.verified}"
+                android:imeOptions="actionNext"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:nextFocusDown="@id/et_past_participle"
+                android:text="@={form.past}"
+                app:crossLine="@{form.pastResult == Result.NEGATIVE}"
+                app:requestFocus="@{!form.verified &amp;&amp; form.requestFocus == InputField.PAST}" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:id="@+id/speech_past"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="@{form.verified ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toBottomOf="@id/input_past"
+            app:layout_constraintEnd_toEndOf="@id/input_past"
+            app:layout_constraintStart_toStartOf="@id/input_past"
+            app:layout_constraintTop_toTopOf="@id/input_past" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_past_participle"
+            style="@style/AppTheme.IrregularInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/def_half_margin"
+            android:hint="@string/past_participle"
+            app:error="@{form.ppError}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/input_infinitive"
+            app:layout_constraintStart_toStartOf="@id/input_infinitive"
+            app:layout_constraintTop_toBottomOf="@id/input_past"
+            app:result="@{form.ppResult}"
+            app:suffixText="@{form.ppTranscription}">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_past_participle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="@{!form.verified}"
+                android:imeOptions="actionDone"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:text="@={form.pp}"
+                app:crossLine="@{form.ppResult == Result.NEGATIVE}"
+                app:requestFocus="@{!form.verified &amp;&amp; form.requestFocus == InputField.PAST_PARTICIPLE}" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:id="@+id/speech_past_participle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="@{form.verified ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toBottomOf="@id/input_past_participle"
+            app:layout_constraintEnd_toEndOf="@id/input_past_participle"
+            app:layout_constraintStart_toStartOf="@id/input_past_participle"
+            app:layout_constraintTop_toTopOf="@id/input_past_participle" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/def_double_margin"
+            android:contentDescription="@string/next"
+            android:src="@{!form.verified || form.completed ? @drawable/ic_check_bold : @drawable/ic_arrow_right}"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:show="@{!form.keyboard}" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.core.common.Result" />
+
+        <import type="com.interactors.irregular.InputField" />
+
+        <variable
+            name="form"
+            type="com.presentation.irregular.IrregularForm" />
+    </data>
+</layout>

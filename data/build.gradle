@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlinx-serialization'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+    def androidConfiguration = globalConfiguration["android"]
+
+    compileSdkVersion androidConfiguration["compileSdk"]
+    buildToolsVersion androidConfiguration["buildTools"]
+
+    defaultConfig {
+        minSdkVersion androidConfiguration["minSdk"]
+        targetSdkVersion androidConfiguration["targetSdk"]
+
+        buildConfigField "String", "GOOGLE_ENDPOINT", '"https://translate.google.com"'
+        buildConfigField "String", "YANDEX_ENDPOINT", '"https://translate.yandex.net"'
+        buildConfigField "String", "LINGVOLIVE_ENDPOINT", '"https://developers.lingvolive.com"'
+        buildConfigField "String", "FLICKR_ENDPOINT", '"https://api.flickr.com"'
+    }
+}
+
+dependencies {
+    implementation project(':boundaries')
+    implementation project(':core:common')
+    implementation project(':core:android')
+
+    def dependencies = rootProject.ext.dependencies
+    implementation dependencies.inject
+
+    implementation dependencies.room
+    kapt dependencies.roomCompiler
+
+    implementation dependencies.retrofit
+
+    implementation dependencies.translation
+    implementation dependencies.textToSpeech
+    implementation dependencies.grpcOkhttp
+
+    implementation dependencies.kotlinSerialize
+
+    def testDependencies = rootProject.ext.testDependencies
+    androidTestImplementation testDependencies.jUnit
+    androidTestImplementation testDependencies.testRunner
+    androidTestImplementation testDependencies.espresso
+    testImplementation testDependencies.jUnit
+}

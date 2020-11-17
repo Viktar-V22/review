@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/def_double_margin"
+                android:gravity="center"
+                android:text="@{form.source}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="враг" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_transcription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@{form.transcription}"
+                android:textColor="?reverseTransparentColor"
+                android:textSize="12sp"
+                android:visibility="@{form.sourceLang == Language.ENGLISH ? View.VISIBLE : View.GONE}"
+                app:layout_constraintEnd_toEndOf="@id/tv_source"
+                app:layout_constraintStart_toStartOf="@id/tv_source"
+                app:layout_constraintTop_toBottomOf="@id/tv_source"
+                tools:text="[foe]" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier_speech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="end"
+                app:constraint_referenced_ids="tv_source,tv_transcription" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_speech"
+                style="@style/AppTheme.TintImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/def_half_padding"
+                android:paddingTop="@dimen/def_padding"
+                android:paddingEnd="@dimen/def_padding"
+                android:paddingBottom="@dimen/def_padding"
+                android:visibility="@{form.sourceLang == Language.ENGLISH ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="@id/tv_transcription"
+                app:layout_constraintStart_toEndOf="@id/barrier_speech"
+                app:layout_constraintTop_toTopOf="@id/tv_source"
+                app:srcCompat="@drawable/ic_volume_high" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/def_half_margin"
+                android:scaleType="centerCrop"
+                app:errorHolder="@{@drawable/ic_error_load}"
+                app:layout_constraintEnd_toEndOf="@id/tv_source"
+                app:layout_constraintStart_toStartOf="@id/tv_source"
+                app:layout_constraintTop_toBottomOf="@id/tv_transcription"
+                app:leftBottomCorner="@{@dimen/def_radius}"
+                app:leftTopCorner="@{@dimen/def_radius}"
+                app:placeholder="@{@drawable/ic_progress_load}"
+                app:rightBottomCorner="@{@dimen/def_radius}"
+                app:rightTopCorner="@{@dimen/def_radius}"
+                app:url="@{form.imageUrl}"
+                tools:src="@drawable/ic_progress_question" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_image_progress"
+                style="@style/AppTheme.TintImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="?baseColor"
+                android:visibility="@{form.result == Result.NONE &amp;&amp; form.sourceLang != Language.RUSSIAN ? View.VISIBLE : View.INVISIBLE}"
+                app:layout_constraintBottom_toBottomOf="@id/iv_image"
+                app:layout_constraintEnd_toEndOf="@id/iv_image"
+                app:layout_constraintStart_toStartOf="@id/iv_image"
+                app:layout_constraintTop_toTopOf="@id/iv_image"
+                app:srcCompat="@drawable/ic_progress_question" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_translations"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/def_margin"
+                android:outlineProvider="bounds"
+                android:scrollbars="none"
+                app:adapter="@{translations}"
+                app:items="@{form.translations}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_image"
+                app:offsetHorizontal="@{@dimen/def_half_margin}"
+                app:orientation="@{LinearLayoutManager.VERTICAL}"
+                tools:itemCount="5"
+                tools:listitem="@layout/item_translation" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/def_double_margin"
+            android:contentDescription="@null"
+            app:drawable="@{form.complete ? @drawable/ic_check_bold : @drawable/ic_arrow_right}"
+            app:layout_behavior="com.presentation.core.views.FabHideOnScrollBehavior"
+            app:show="@{form.result != Result.NONE}" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.core.common.Result" />
+
+        <import type="com.core.common.Language" />
+
+        <import type="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <variable
+            name="form"
+            type="com.presentation.translation.TranslationForm" />
+
+        <variable
+            name="translations"
+            type="com.presentation.translation.TranslationsAdapter" />
+    </data>
+</layout>

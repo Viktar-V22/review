@@ -1,0 +1,130 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'io.fabric'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+    def androidConfiguration = globalConfiguration["android"]
+
+    compileSdkVersion androidConfiguration["compileSdk"]
+    buildToolsVersion androidConfiguration["buildTools"]
+
+    compileOptions.with {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    defaultConfig {
+        minSdkVersion androidConfiguration["minSdk"]
+        targetSdkVersion androidConfiguration["targetSdk"]
+
+        applicationId globalConfiguration["appId"]
+        versionCode globalConfiguration["versionCode"]
+        versionName globalConfiguration["versionName"]
+
+        multiDexEnabled true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        "room.schemaLocation"  : "$projectDir/schemas".toString(),
+                        "room.incremental"     : "true",
+                        "room.expandProjection": "true"]
+            }
+        }
+    }
+
+    configurations {
+        all {
+            exclude module: 'httpclient'
+            exclude module: 'commons-logging'
+        }
+    }
+
+    // improve dagger init time
+    kapt { javacOptions { option("-Adagger.fastInit=enabled") } }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            renderscriptDebuggable false
+            jniDebuggable false
+            pseudoLocalesEnabled false
+            zipAlignEnabled true
+            shrinkResources true
+        }
+
+        debug {
+            debuggable true
+            ext.alwaysUpdateBuildId = false
+        }
+    }
+
+    // required here, because data binding used in some modules
+    buildFeatures { dataBinding = true }
+
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+    implementation project(':presentation')
+    implementation project(':interactors')
+    implementation project(':domain')
+    implementation project(':boundaries')
+    implementation project(':data')
+    implementation project(':core:common')
+
+    def dependencies = rootProject.ext.dependencies
+
+    api dependencies.dagger
+    kapt dependencies.daggerCompiler
+
+    implementation dependencies.firebaseAnalytics
+
+    implementation dependencies.appCompat
+    implementation dependencies.constraintLayout
+    implementation dependencies.coil
+    implementation dependencies.paging
+
+    implementation dependencies.preference
+
+    implementation dependencies.navigation
+    implementation dependencies.navigationUi
+
+    implementation dependencies.room
+    kapt dependencies.roomCompiler
+
+    implementation dependencies.retrofit
+    implementation dependencies.retrofitConverter
+    implementation dependencies.coroutineAdapter
+    implementation dependencies.logginInterceptor
+    implementation dependencies.retrofitScalars
+
+    implementation dependencies.textToSpeech
+    implementation dependencies.grpcOkhttp
+
+    releaseImplementation dependencies.crashlytics
+    debugImplementation dependencies.leakcanary
+
+    def testDependencies = rootProject.ext.testDependencies
+    androidTestImplementation testDependencies.jUnit
+    androidTestImplementation testDependencies.testRunner
+    androidTestImplementation testDependencies.espresso
+    testImplementation testDependencies.jUnit
+}
+
+apply plugin: 'com.google.gms.google-services' // should be here. bottom of the file
+googleServices { disableVersionCheck = true } // for translation

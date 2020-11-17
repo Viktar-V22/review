@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">?attr/reverseColor</item>
+        <item name="colorPrimaryDark">?attr/reverseDarkColor</item>
+        <item name="colorAccent">?attr/reverseColor</item>
+        <item name="colorControlNormal">?attr/reverseColor</item>
+
+        <item name="android:windowBackground">?attr/baseColor</item>
+
+        <item name="android:soundEffectsEnabled">true</item>
+        <item name="drawableTint">?attr/reverseColor</item>
+
+        <item name="radioButtonStyle">@style/AppTheme.RadioButton</item>
+        <item name="checkboxStyle">@style/AppTheme.Checkbox</item>
+        <item name="android:textViewStyle">@style/AppTheme.TextView</item>
+        <item name="materialButtonStyle">@style/AppTheme.Button</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="textInputStyle">@style/AppTheme.TextInput</item>
+        <item name="materialCardViewStyle">@style/AppTheme.CardView</item>
+        <item name="cardViewStyle">@style/AppTheme.CardView</item>
+        <item name="floatingActionButtonStyle">@style/AppTheme.Fab</item>
+        <item name="popupMenuStyle">@style/AppTheme.PopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">@style/AppTheme.PopupMenu.Small</item>
+        <item name="textAppearanceLargePopupMenu">@style/AppTheme.PopupMenu.Large</item>
+        <!--<item name="bottomNavigationStyle">@style/AppTheme.BottomNav</item>-->
+
+        <item name="errorColor">@color/red</item>
+        <item name="errorDisabledColor">@color/red_disabled</item>
+        <item name="positiveColor">@color/green</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="reverseColor">@android:color/white</item>
+        <item name="reverseDarkColor">@android:color/white</item>
+        <item name="reverseDisabledColor">@color/white_disabled</item>
+        <item name="reverseTransparentColor">@color/white_transparent</item>
+        <item name="baseColor">@color/brand</item>
+        <item name="baseDisabledColor">@color/brand_disabled</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="AppTheme">
+        <item name="reverseColor">@color/brand</item>
+        <item name="reverseDarkColor">@color/brand_dark</item>
+        <item name="reverseDisabledColor">@color/brand_disabled</item>
+        <item name="reverseTransparentColor">@color/brand_transparent</item>
+        <item name="baseColor">@android:color/white</item>
+        <item name="baseDisabledColor">@color/white_disabled</item>
+    </style>
+
+    <!-- BOTTOM NAV -->
+    <!--<style name="AppTheme.BottomNav" parent="@style/Widget.Design.BottomNavigationView">
+
+    </style>-->
+
+    <!-- TOOL BAR -->
+    <style name="AppTheme.Toolbar" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?attr/baseColor</item>
+        <item name="drawerArrowStyle">@style/AppTheme.Toolbar.Arrow</item>
+    </style>
+
+    <style name="AppTheme.Toolbar.Arrow" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">?attr/reverseColor</item>
+    </style>
+
+    <!-- FAB -->
+    <style name="AppTheme.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="tint">?attr/reverseColor</item>
+        <item name="backgroundTint">?attr/baseColor</item>
+        <item name="rippleColor">?attr/reverseTransparentColor</item>
+    </style>
+
+    <!-- CARD VIEW -->
+    <style name="AppTheme.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/def_card_view_corners</item>
+        <item name="rippleColor">?attr/reverseTransparentColor</item>
+        <item name="cardBackgroundColor">?attr/baseColor</item>
+        <item name="elevation">@dimen/def_elevation</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <!-- TEXT VIEW -->
+    <style name="AppTheme.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/AppTheme.TextView.TextAppearance</item>
+    </style>
+
+    <style name="AppTheme.TextView.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/def_text</item>
+        <item name="android:textSize">@dimen/def_text_size</item>
+        <item name="android:textColorHint">?attr/reverseDisabledColor</item>
+    </style>
+
+    <!-- INPUT -->
+    <style name="AppTheme.TextInput" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">?attr/reverseColor</item>
+        <item name="boxStrokeWidth">@dimen/not_focused_stroke</item>
+        <item name="boxStrokeWidthFocused">@dimen/focused_stroke</item>
+        <item name="passwordToggleTint">?attr/reverseColor</item>
+        <item name="endIconTint">?attr/reverseColor</item>
+
+        <item name="materialThemeOverlay">@style/AppTheme.InputEditText</item>
+
+        <item name="errorEnabled">true</item>
+        <item name="errorTextAppearance">@style/AppTheme.TextErrorAppearance</item>
+        <item name="errorTextColor">?attr/errorColor</item>
+        <item name="errorIconTint">?attr/errorColor</item>
+        <item name="boxStrokeErrorColor">?attr/errorColor</item>
+
+        <item name="hintEnabled">true</item>
+        <!-- The color of the label when it is collapsed and the text field is active -->
+        <item name="hintTextColor">?attr/reverseColor</item>
+        <!-- The color of the label in all other text field states (such as resting and disabled) -->
+        <item name="android:textColorHint">?attr/reverseDisabledColor</item>
+        <item name="hintTextAppearance">@style/AppTheme.TextHintAppearance</item>
+
+        <item name="suffixTextColor">@color/def_text</item>
+    </style>
+
+    <style name="AppTheme.InputEditText" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/def_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/def_padding</item>
+        <item name="android:paddingEnd">@dimen/def_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/def_input_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextHintAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/def_top_hint_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/def_error_text_size</item>
+    </style>
+
+    <!-- BUTTON -->
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@color/bg_button</item>
+        <item name="android:paddingStart">@dimen/def_padding</item>
+        <item name="android:paddingEnd">@dimen/def_padding</item>
+        <item name="android:textAppearanceButton">@style/AppTheme.Button.TextAppearance</item>
+        <item name="textAppearanceButton">@style/AppTheme.Button.TextAppearance</item>
+    </style>
+
+    <style name="AppTheme.Button.TextAppearance" parent="@style/TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/def_button_text_size</item>>
+    </style>
+
+    <!-- CHECKBOX -->
+    <style name="AppTheme.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/bg_button</item>
+        <item name="android:textColor">@color/def_text</item>
+        <item name="android:textSize">@dimen/def_text_size</item>
+        <item name="android:text" />
+    </style>
+
+    <!-- RADIO BUTTON -->
+    <style name="AppTheme.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/bg_button</item>
+        <item name="android:textColor">@color/def_text</item>
+        <item name="android:textSize">@dimen/def_text_size</item>
+    </style>
+
+    <!-- MENU -->
+    <style name="AppTheme.PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">?attr/reverseColor</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu.Small" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:textColor">?attr/reverseColor</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu.Large" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">?attr/reverseColor</item>
+    </style>
+
+    <!-- DIALOGS -->
+
+    <!-- IMAGE -->
+    <style name="AppTheme.TintImage">
+        <item name="tint">?attr/reverseColor</item>
+    </style>
+
+    <!-- IRREGULAR -->
+    <style name="AppTheme.IrregularInput">
+        <item name="endIconMode">custom</item>
+        <item name="errorIconDrawable">@drawable/ic_volume_high</item>
+        <item name="errorIconTint">?attr/reverseColor</item>
+    </style>
+</resources>

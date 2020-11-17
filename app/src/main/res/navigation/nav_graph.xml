@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/trains">
+
+    <fragment
+        android:id="@+id/constructor"
+        android:name="com.presentation.constructor.ConstructorFragment"
+        android:label="Constructor"
+        tools:layout="@layout/fragment_constructor" />
+
+    <fragment
+        android:id="@+id/translations"
+        android:name="com.presentation.translation.TranslationFragment"
+        android:label="Translation"
+        tools:layout="@layout/fragment_translation" />
+
+    <fragment
+        android:id="@+id/irregular"
+        android:name="com.presentation.irregular.IrregularFragment"
+        android:label="Irregular"
+        tools:layout="@layout/fragment_irregular" />
+
+    <fragment
+        android:id="@+id/glossary"
+        android:name="com.presentation.glossary.GlossaryFragment"
+        android:label="Glossary"
+        tools:layout="@layout/fragment_glossary" />
+
+    <fragment
+        android:id="@+id/trains"
+        android:name="com.presentation.trains.TrainsFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_trains">
+        <action
+            android:id="@+id/to_constructor"
+            app:destination="@id/constructor" />
+
+        <action
+            android:id="@+id/to_irregular"
+            app:destination="@id/irregular" />
+
+        <action
+            android:id="@+id/to_translation"
+            app:destination="@id/translations" />
+    </fragment>
+</navigation>

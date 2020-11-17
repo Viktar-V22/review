@@ -1,0 +1,64 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+    def androidConfiguration = globalConfiguration["android"]
+
+    compileSdkVersion androidConfiguration["compileSdk"]
+    buildToolsVersion androidConfiguration["buildTools"]
+
+    defaultConfig {
+        minSdkVersion androidConfiguration["minSdk"]
+        targetSdkVersion androidConfiguration["targetSdk"]
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures { dataBinding = true }
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation project(':interactors')
+    implementation project(':core:common')
+    implementation project(':core:android')
+
+    def dependencies = rootProject.ext.dependencies
+    implementation dependencies.appCompat
+    implementation dependencies.materialDesign
+    implementation dependencies.constraintLayout
+    implementation dependencies.swipeRefreshlayout
+    implementation dependencies.coil
+    implementation dependencies.paging
+
+    implementation dependencies.lifecycleExtensions
+    implementation dependencies.lifecycleViewModel
+    implementation dependencies.lifecycleRuntime
+    kapt dependencies.lifecycleCompiler
+
+    api dependencies.dagger
+    kapt dependencies.daggerCompiler
+
+    implementation dependencies.coroutines
+    implementation dependencies.coroutinesAndroid
+
+    def testDependencies = rootProject.ext.testDependencies
+    androidTestImplementation testDependencies.jUnit
+    androidTestImplementation testDependencies.testRunner
+    androidTestImplementation testDependencies.espresso
+    testImplementation testDependencies.jUnit
+}

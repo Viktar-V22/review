@@ -1,0 +1,4121 @@
+[
+  {
+    "infinitive": {
+      "sound": "ʊ",
+      "transcription": "[pˈʊt]",
+      "word": "put"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[pˈʊt]",
+      "word": "put"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[pˈʊt]",
+      "word": "put"
+    },
+    "ru": [
+      "класть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʊ",
+      "transcription": "[ˈaʊːtpʊt]",
+      "word": "output"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[ˈaʊːtpʊt]",
+      "word": "output"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[ˈaʊːtpʊt]",
+      "word": "output"
+    },
+    "ru": [
+      "выпускать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʊ",
+      "transcription": "[ˈɪnpʊt]",
+      "word": "input"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[ˈɪnpʊt]",
+      "word": "input"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[ˈɪnpʊt]",
+      "word": "input"
+    },
+    "ru": [
+      "вводить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[lˈet]",
+      "word": "let"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[lˈet]",
+      "word": "let"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[lˈet]",
+      "word": "let"
+    },
+    "ru": [
+      "позволять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[sˈet]",
+      "word": "set"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[sˈet]",
+      "word": "set"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[sˈet]",
+      "word": "set"
+    },
+    "ru": [
+      "помещать",
+      "ставить",
+      "установить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[ˈʌpset]",
+      "word": "upset"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[ˈʌpset]",
+      "word": "upset"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[ˈʌpset]",
+      "word": "upset"
+    },
+    "ru": [
+      "расстраивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[ˈɒfset]",
+      "word": "offset"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[ˈɒfset]",
+      "word": "offset"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[ˈɒfset]",
+      "word": "offset"
+    },
+    "ru": [
+      "возмещать",
+      "компенсировать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[sprˈed]",
+      "word": "spread"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[sprˈed]",
+      "word": "spread"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[sprˈed]",
+      "word": "spread"
+    },
+    "ru": [
+      "распространять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[wˈet]",
+      "word": "wet"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[wˈet]",
+      "word": "wet"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[wˈet]",
+      "word": "wet"
+    },
+    "ru": [
+      "мочить",
+      "увлажнять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[bˈet]",
+      "word": "bet"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[bˈet]",
+      "word": "bet"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[bˈet]",
+      "word": "bet"
+    },
+    "ru": [
+      "держать пари",
+      "биться об заклад"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[swet]",
+      "word": "sweat"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[swet]",
+      "word": "sweat"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[swet]",
+      "word": "sweat"
+    },
+    "ru": [
+      "потеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[ʃˈed]",
+      "word": "shed"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[ʃˈed]",
+      "word": "shed"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[ʃˈed]",
+      "word": "shed"
+    },
+    "ru": [
+      "проливать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[hˈɪt]",
+      "word": "hit"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[hˈɪt]",
+      "word": "hit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[hˈɪt]",
+      "word": "hit"
+    },
+    "ru": [
+      "достигать",
+      "ударить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[fˈɪt]",
+      "word": "fit"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[fˈɪt]",
+      "word": "fit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[fˈɪt]",
+      "word": "fit"
+    },
+    "ru": [
+      "подходить по размеру",
+      "приспосабливать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[rˈɪd]",
+      "word": "rid"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[rˈɪd]",
+      "word": "rid"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[rˈɪd]",
+      "word": "rid"
+    },
+    "ru": [
+      "избавляться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[ʃɪt]",
+      "word": "shit"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[ʃɪt]",
+      "word": "shit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[ʃɪt]",
+      "word": "shit"
+    },
+    "ru": [
+      "гадить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[kwˈɪt]",
+      "word": "quit"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[kwˈɪt]",
+      "word": "quit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[kwˈɪt]",
+      "word": "quit"
+    },
+    "ru": [
+      "покидать",
+      "оставлять",
+      "выходить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[splˈɪt]",
+      "word": "split"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[splˈɪt]",
+      "word": "split"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[splˈɪt]",
+      "word": "split"
+    },
+    "ru": [
+      "расщеплять",
+      "раскалывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[ʃˈʌt]",
+      "word": "shut"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[ʃˈʌt]",
+      "word": "shut"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[ʃˈʌt]",
+      "word": "shut"
+    },
+    "ru": [
+      "закрывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[kˈʌt]",
+      "word": "cut"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[kˈʌt]",
+      "word": "cut"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[kˈʌt]",
+      "word": "cut"
+    },
+    "ru": [
+      "резать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[θrˈʌst]",
+      "word": "thrust"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[θrˈʌst]",
+      "word": "thrust"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[θrˈʌst]",
+      "word": "thrust"
+    },
+    "ru": [
+      "толкать",
+      "тыкать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[bˈʌst]",
+      "word": "bust"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[bˈʌst]",
+      "word": "bust"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[bˈʌst]",
+      "word": "bust"
+    },
+    "ru": [
+      "сломать",
+      "разбить",
+      "разрушить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɑ",
+      "transcription": "[kˈɑːst]",
+      "word": "cast"
+    },
+    "past": {
+      "sound": "ɑ",
+      "transcription": "[kˈɑːst]",
+      "word": "cast"
+    },
+    "past_participle": {
+      "sound": "ɑ",
+      "transcription": "[kˈɑːst]",
+      "word": "cast"
+    },
+    "ru": [
+      "кидать",
+      "бросать",
+      "проводить кастинг"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɑ",
+      "transcription": "[brˈɔːdkɑːst]",
+      "word": "broadcast"
+    },
+    "past": {
+      "sound": "ɑ",
+      "transcription": "[brˈɔːdkɑːst]",
+      "word": "broadcast"
+    },
+    "past_participle": {
+      "sound": "ɑ",
+      "transcription": "[brˈɔːdkɑːst]",
+      "word": "broadcast"
+    },
+    "ru": [
+      "передавать по радио",
+      "вещать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɑ",
+      "transcription": "[fˈɔːkɑːst]",
+      "word": "forecast"
+    },
+    "past": {
+      "sound": "ɑ",
+      "transcription": "[fˈɔːkɑːst]",
+      "word": "forecast"
+    },
+    "past_participle": {
+      "sound": "ɑ",
+      "transcription": "[fˈɔːkɑːst]",
+      "word": "forecast"
+    },
+    "ru": [
+      "предсказывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɒ",
+      "transcription": "[kˈɒst]",
+      "word": "cost"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[kˈɒst]",
+      "word": "cost"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[kˈɒst]",
+      "word": "cost"
+    },
+    "ru": [
+      "стоить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɜ",
+      "transcription": "[hˈɜːt]",
+      "word": "hurt"
+    },
+    "past": {
+      "sound": "ɜ",
+      "transcription": "[hˈɜːt]",
+      "word": "hurt"
+    },
+    "past_participle": {
+      "sound": "ɜ",
+      "transcription": "[hˈɜːt]",
+      "word": "hurt"
+    },
+    "ru": [
+      "причинить боль"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɜ",
+      "transcription": "[bˈɜːst]",
+      "word": "burst"
+    },
+    "past": {
+      "sound": "ɜ",
+      "transcription": "[bˈɜːst]",
+      "word": "burst"
+    },
+    "past_participle": {
+      "sound": "ɜ",
+      "transcription": "[bˈɜːst]",
+      "word": "burst"
+    },
+    "ru": [
+      "взрывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ı",
+      "transcription": "[bıʹgın]",
+      "word": "begin"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[bıʹgæn]",
+      "word": "began"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[bɪˈgʌn]",
+      "word": "begun"
+    },
+    "ru": [
+      "начинать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[swˈɪm]",
+      "word": "swim"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[swˈæm]",
+      "word": "swam"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[swʌm]",
+      "word": "swum"
+    },
+    "ru": [
+      "плавать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[sˈɪŋ]",
+      "word": "sing"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[sˈæŋ]",
+      "word": "sang"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[sʌŋ]",
+      "word": "sung"
+    },
+    "ru": [
+      "петь"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[rˈɪŋ]",
+      "word": "ring"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[rˈæŋ]",
+      "word": "rang"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[rʌŋ]",
+      "word": "rung"
+    },
+    "ru": [
+      "звенеть",
+      "звучать",
+      "звонить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[sprˈɪŋ]",
+      "word": "spring"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[sprˈæŋ]",
+      "word": "sprang"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[sprʌŋ]",
+      "word": "sprung"
+    },
+    "ru": [
+      "возникать",
+      "пружинить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[sˈɪŋk]",
+      "word": "sink"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[sˈæŋk]",
+      "word": "sank"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[sʌŋk]",
+      "word": "sunk"
+    },
+    "ru": [
+      "погружаться",
+      "тонуть",
+      "опускаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[drˈɪŋk]",
+      "word": "drink"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[drˈæŋk]",
+      "word": "drank"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[drʌŋk]",
+      "word": "drunk"
+    },
+    "ru": [
+      "пить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[ʃrˈɪŋk]",
+      "word": "shrink"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[ʃrˈæŋk]",
+      "word": "shrank"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[ʃrʌŋk]",
+      "word": "shrunk"
+    },
+    "ru": [
+      "сокращаться",
+      "сжиматься",
+      "съёживаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[fˈaɪt]",
+      "word": "fight"
+    },
+    "past": {
+      "sound": "ɔ",
+      "transcription": "[fˈɔːt]",
+      "word": "fought"
+    },
+    "past_participle": {
+      "sound": "ɔ",
+      "transcription": "[fˈɔːt]",
+      "word": "fought"
+    },
+    "ru": [
+      "сражаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[fˈaɪnd]",
+      "word": "find"
+    },
+    "past": {
+      "sound": "aʊ",
+      "transcription": "[fˈaʊːnd]",
+      "word": "found"
+    },
+    "past_participle": {
+      "sound": "aʊ",
+      "transcription": "[fˈaʊːnd]",
+      "word": "found"
+    },
+    "ru": [
+      "находить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[bˈaɪnd]",
+      "word": "bind"
+    },
+    "past": {
+      "sound": "aʊ",
+      "transcription": "[bˈaʊːnd]",
+      "word": "bound"
+    },
+    "past_participle": {
+      "sound": "aʊ",
+      "transcription": "[bˈaʊːnd]",
+      "word": "bound"
+    },
+    "ru": [
+      "связать",
+      "завязать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[grˈaɪnd]",
+      "word": "grind"
+    },
+    "past": {
+      "sound": "aʊ",
+      "transcription": "[grˈaʊːnd]",
+      "word": "ground"
+    },
+    "past_participle": {
+      "sound": "aʊ",
+      "transcription": "[grˈaʊːnd]",
+      "word": "ground"
+    },
+    "ru": [
+      "молоть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[ʃˈaɪn]",
+      "word": "shine"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒn]",
+      "word": "shone"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒn]",
+      "word": "shone"
+    },
+    "ru": [
+      "светить",
+      "сиять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[klaɪm]",
+      "word": "climb"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[klˈʌm]",
+      "word": "clumb"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[klˈʌm]",
+      "word": "clumb"
+    },
+    "ru": [
+      "карабкаться",
+      "взбираться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[strˈaɪk]",
+      "word": "strike"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[strˈʌk]",
+      "word": "struck"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[strˈʌk]",
+      "word": "struck"
+    },
+    "ru": [
+      "ударить",
+      "бить",
+      "бастовать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[lˈaɪt]",
+      "word": "light"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[lˈɪt]",
+      "word": "lit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[lˈɪt]",
+      "word": "lit"
+    },
+    "ru": [
+      "зажигать",
+      "освещать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[ˈspɒtlaɪt]",
+      "word": "spotlight"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[spˈɒtlɪt]",
+      "word": "spotlit"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[spˈɒtlɪt]",
+      "word": "spotlit"
+    },
+    "ru": [
+      "осветить прожектором",
+      "сделать центром внимания"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[slˈaɪd]",
+      "word": "slide"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[slˈɪd]",
+      "word": "slid"
+    },
+    "past_participle": {
+      "sound": "ɪ",
+      "transcription": "[slˈɪd]",
+      "word": "slid"
+    },
+    "ru": [
+      "скользить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "u",
+      "transcription": "[ʃˈuːt]",
+      "word": "shoot"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒt]",
+      "word": "shot"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒt]",
+      "word": "shot"
+    },
+    "ru": [
+      "стрелять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[stˈænd]",
+      "word": "stand"
+    },
+    "past": {
+      "sound": "u",
+      "transcription": "[stuːd]",
+      "word": "stood"
+    },
+    "past_participle": {
+      "sound": "u",
+      "transcription": "[stuːd]",
+      "word": "stood"
+    },
+    "ru": [
+      "стоять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[ʌndəstˈænd]",
+      "word": "understand"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[ˌʌndəˈstʊd]",
+      "word": "understood"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[ˌʌndəˈstʊd]",
+      "word": "understood"
+    },
+    "ru": [
+      "понимать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[mɪsʌndəstˈænd]",
+      "word": "misunderstand"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[ˌmɪsʌndəˈstʊd]",
+      "word": "misunderstood"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[ˌmɪsʌndəˈstʊd]",
+      "word": "misunderstood"
+    },
+    "ru": [
+      "неправильно понимать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[wɪðstˈænd]",
+      "word": "withstand"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[wɪðˈstʊd]",
+      "word": "withstood"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[wɪðˈstʊd]",
+      "word": "withstood"
+    },
+    "ru": [
+      "противиться",
+      "устоять",
+      "выстоять",
+      "выдержать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[hˈæŋ]",
+      "word": "hang"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[hˈʌŋ]",
+      "word": "hung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[hˈʌŋ]",
+      "word": "hung"
+    },
+    "ru": [
+      "вешать",
+      "висеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[gˈet]",
+      "word": "get"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[gˈɒt]",
+      "word": "got"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[gˈɒt]",
+      "word": "got"
+    },
+    "ru": [
+      "получать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[trˈed]",
+      "word": "tread"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[trˈɒd]",
+      "word": "trod"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[trˈɒd]",
+      "word": "trod"
+    },
+    "ru": [
+      "шагать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[wˈɪn]",
+      "word": "win"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[wˈʌn]",
+      "word": "won"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[wˈʌn]",
+      "word": "won"
+    },
+    "ru": [
+      "выиграть",
+      "победить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[spˈɪn]",
+      "word": "spin"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[spˈʌn]",
+      "word": "spun"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[spˈʌn]",
+      "word": "spun"
+    },
+    "ru": [
+      "прясть",
+      "крутить",
+      "вертеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[stˈɪk]",
+      "word": "stick"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[stˈʌk]",
+      "word": "stuck"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[stˈʌk]",
+      "word": "stuck"
+    },
+    "ru": [
+      "втыкать",
+      "укалывать",
+      "приклеивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[sniːk]",
+      "word": "sneak"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[snˈʌk]",
+      "word": "snuck"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[snˈʌk]",
+      "word": "snuck"
+    },
+    "ru": [
+      "красться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[swˈɪŋ]",
+      "word": "swing"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[swˈʌŋ]",
+      "word": "swung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[swˈʌŋ]",
+      "word": "swung"
+    },
+    "ru": [
+      "качать",
+      "колебать",
+      "раскачивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[dˈɪg]",
+      "word": "dig"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[dˈʌg]",
+      "word": "dug"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[dˈʌg]",
+      "word": "dug"
+    },
+    "ru": [
+      "копать",
+      "рыть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[strˈɪŋ]",
+      "word": "string"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[strˈʌŋ]",
+      "word": "strung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[strˈʌŋ]",
+      "word": "strung"
+    },
+    "ru": [
+      "нанизать",
+      "натягивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[klˈɪŋ]",
+      "word": "cling"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[klˈʌŋ]",
+      "word": "clung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[klˈʌŋ]",
+      "word": "clung"
+    },
+    "ru": [
+      "цепляться",
+      "льнуть",
+      "прилипать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[flˈɪŋ]",
+      "word": "fling"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[flˈʌŋ]",
+      "word": "flung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[flˈʌŋ]",
+      "word": "flung"
+    },
+    "ru": [
+      "бросать",
+      "швырять",
+      "метать",
+      "делать быстрое движение"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[slˈɪŋ]",
+      "word": "sling"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[slˈʌŋ]",
+      "word": "slung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[slˈʌŋ",
+      "word": "slung"
+    },
+    "ru": [
+      "швырять",
+      "подвешивать",
+      "метать из пращи",
+      "вешать через плечо"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[stˈɪŋ]",
+      "word": "sting"
+    },
+    "past": {
+      "sound": "ʌ",
+      "transcription": "[stˈʌŋ]",
+      "word": "stung"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[stˈʌŋ]",
+      "word": "stung"
+    },
+    "ru": [
+      "жалить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[wˈɪnd]",
+      "word": "wind"
+    },
+    "past": {
+      "sound": "aʊ",
+      "transcription": "[wˈaʊːnd]",
+      "word": "wound"
+    },
+    "past_participle": {
+      "sound": "aʊ",
+      "transcription": "[wˈaʊːnd]",
+      "word": "wound"
+    },
+    "ru": [
+      "заводить",
+      "трубить",
+      "извиваться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[sˈɪt]",
+      "word": "sit"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[sˈæt]",
+      "word": "sat"
+    },
+    "past_participle": {
+      "sound": "æ",
+      "transcription": "[sˈæt]",
+      "word": "sat"
+    },
+    "ru": [
+      "сидеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[spˈɪt]",
+      "word": "spit"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[spˈæt]",
+      "word": "spat"
+    },
+    "past_participle": {
+      "sound": "æ",
+      "transcription": "[spˈæt]",
+      "word": "spat"
+    },
+    "ru": [
+      "плевать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[mˈiːt]",
+      "word": "meet"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[mˈet]",
+      "word": "met"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[mˈet]",
+      "word": "met"
+    },
+    "ru": [
+      "встречать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[liːd]",
+      "word": "lead"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[lˈed]",
+      "word": "led"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[lˈed]",
+      "word": "led"
+    },
+    "ru": [
+      "вести"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[fˈiːd]",
+      "word": "feed"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[fˈed]",
+      "word": "fed"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[fˈed]",
+      "word": "fed"
+    },
+    "ru": [
+      "кормить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[spˈiːd]",
+      "word": "speed"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[spˈed]",
+      "word": "sped"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[spˈed]",
+      "word": "sped"
+    },
+    "ru": [
+      "ускорять",
+      "спешить",
+      "мчатся",
+      "проносится"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[plˈiːd]",
+      "word": "plead"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[pled]",
+      "word": "pled"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[pled]",
+      "word": "pled"
+    },
+    "ru": [
+      "выступать в суде"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[blˈiːd]",
+      "word": "bleed"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[blˈed]",
+      "word": "bled"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[blˈed]",
+      "word": "bled"
+    },
+    "ru": [
+      "кровоточить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[brˈiːd]",
+      "word": "breed"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[brˈed]",
+      "word": "bred"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[brˈed]",
+      "word": "bred"
+    },
+    "ru": [
+      "выращивать",
+      "размножаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ou",
+      "transcription": "[hould]",
+      "word": "hold"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[hˈeld]",
+      "word": "held"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[hˈeld]",
+      "word": "held"
+    },
+    "ru": [
+      "держать",
+      "удерживать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ou",
+      "transcription": "[ʌpˈhould]",
+      "word": "uphold"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[ʌpˈheld]",
+      "word": "upheld"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[ʌpˈheld]",
+      "word": "upheld"
+    },
+    "ru": [
+      "поддерживать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ou",
+      "transcription": "[wɪðˈhould]",
+      "word": "withhold"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[wɪðˈheld]",
+      "word": "withheld"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[wɪðˈheld]",
+      "word": "withheld"
+    },
+    "ru": [
+      "вычитать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[kˈæn]",
+      "word": "can"
+    },
+    "past": {
+      "sound": "ʊ",
+      "transcription": "[kˈʊd]",
+      "word": "could"
+    },
+    "past_participle": {
+      "sound": "ʊ",
+      "transcription": "[kˈʊd]",
+      "word": "could"
+    },
+    "ru": [
+      "мочь",
+      "уметь"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[tˈel]",
+      "word": "tell"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[tould]",
+      "word": "told"
+    },
+    "past_participle": {
+      "sound": "ou",
+      "transcription": "[tould]",
+      "word": "told"
+    },
+    "ru": [
+      "рассказывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "e",
+      "transcription": "[sˈel]",
+      "word": "sell"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[sould]",
+      "word": "sold"
+    },
+    "past_participle": {
+      "sound": "ou",
+      "transcription": "[sould]",
+      "word": "sold"
+    },
+    "ru": [
+      "торговать",
+      "продавать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "u",
+      "transcription": "[ʃˈuː]",
+      "word": "shoe"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒd]",
+      "word": "shod"
+    },
+    "past_participle": {
+      "sound": "ɒ",
+      "transcription": "[ʃˈɒd]",
+      "word": "shod"
+    },
+    "ru": [
+      "обувать",
+      "подковывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[flˈiː]",
+      "word": "flee"
+    },
+    "past": {
+      "sound": "e",
+      "transcription": "[flˈed]",
+      "word": "fled"
+    },
+    "past_participle": {
+      "sound": "e",
+      "transcription": "[flˈed]",
+      "word": "fled"
+    },
+    "ru": [
+      "спасаться бегством"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪə",
+      "transcription": "[hˈɪəː]",
+      "word": "hear"
+    },
+    "past": {
+      "sound": "ɪə",
+      "transcription": "[hˈɜːd]",
+      "word": "heard"
+    },
+    "past_participle": {
+      "sound": "ɪə",
+      "transcription": "[hˈɜːd]",
+      "word": "heard"
+    },
+    "ru": [
+      "слышать",
+      "услышать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "eɪ",
+      "transcription": "[mˈeɪː]",
+      "word": "may"
+    },
+    "past": {
+      "sound": "aɪt",
+      "transcription": "[mˈaɪt]",
+      "word": "might"
+    },
+    "past_participle": {
+      "sound": "aɪt",
+      "transcription": "[mˈaɪt]",
+      "word": "might"
+    },
+    "ru": [
+      "мочь",
+      "иметь возможность"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "aɪ",
+      "transcription": "[bˈaɪ]",
+      "word": "buy"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[bˈɔːt]",
+      "word": "bought"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[bˈɔːt]",
+      "word": "bought"
+    },
+    "ru": [
+      "купить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "æ",
+      "transcription": "[kˈætʃ]",
+      "word": "catch"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[kˈɔːt]",
+      "word": "caught"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[kˈɔːt]",
+      "word": "caught"
+    },
+    "ru": [
+      "ловить",
+      "хватать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "u",
+      "transcription": "[lˈuːz]",
+      "word": "lose"
+    },
+    "past": {
+      "sound": "ɒst",
+      "transcription": "[lˈɒst]",
+      "word": "lost"
+    },
+    "past_participle": {
+      "sound": "ɒst",
+      "transcription": "[lˈɒst]",
+      "word": "lost"
+    },
+    "ru": [
+      "терять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[θˈɪŋk]",
+      "word": "think"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[θˈɔːt]",
+      "word": "thought"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[θˈɔːt]",
+      "word": "thought"
+    },
+    "ru": [
+      "думать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[rˈiːθɪŋk]",
+      "word": "rethink"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[ˌriːˈθɔːt]",
+      "word": "rethought"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[ˌriːˈθɔːt]",
+      "word": "rethought"
+    },
+    "ru": [
+      "обдумать заново",
+      "передумать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[sˈiːk]",
+      "word": "seek"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[sˈɔːt]",
+      "word": "sought"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[sˈɔːt]",
+      "word": "sought"
+    },
+    "ru": [
+      "искать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ɪ",
+      "transcription": "[brˈɪŋ]",
+      "word": "bring"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[brˈɔːt]",
+      "word": "brought"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[brˈɔːt]",
+      "word": "brought"
+    },
+    "ru": [
+      "приносить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[tˈiːtʃ]",
+      "word": "teach"
+    },
+    "past": {
+      "sound": "ɔːt",
+      "transcription": "[tˈɔːt]",
+      "word": "taught"
+    },
+    "past_participle": {
+      "sound": "ɔːt",
+      "transcription": "[tˈɔːt]",
+      "word": "taught"
+    },
+    "ru": [
+      "обучать",
+      "преподавать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[lˈiːv]",
+      "word": "leave"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[lˈeft]",
+      "word": "left"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[lˈeft]",
+      "word": "left"
+    },
+    "ru": [
+      "оставить",
+      "уйти"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[fˈiːl]",
+      "word": "feel"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[fˈelt]",
+      "word": "felt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[fˈelt]",
+      "word": "felt"
+    },
+    "ru": [
+      "чувствовать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[nˈiːl]",
+      "word": "kneel"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[nˈelt]",
+      "word": "knelt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[nˈelt]",
+      "word": "knelt"
+    },
+    "ru": [
+      "стоять на коленях"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[dˈiːl]",
+      "word": "deal"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[dˈelt]",
+      "word": "dealt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[dˈelt]",
+      "word": "dealt"
+    },
+    "ru": [
+      "иметь дело"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[mˈiːn]",
+      "word": "mean"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[mˈent]",
+      "word": "meant"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[mˈent]",
+      "word": "meant"
+    },
+    "ru": [
+      "означать",
+      "иметь в виду"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[lˈiːn]",
+      "word": "lean"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[lˈent]",
+      "word": "leant"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[lˈent]",
+      "word": "leant"
+    },
+    "ru": [
+      "опираться",
+      "прислоняться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[drˈiːm]",
+      "word": "dream"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[drˈemt]",
+      "word": "dreamt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[drˈemt]",
+      "word": "dreamt"
+    },
+    "ru": [
+      "видеть сны",
+      "мечтать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[kˈiːp]",
+      "word": "keep"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[kˈept]",
+      "word": "kept"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[kˈept]",
+      "word": "kept"
+    },
+    "ru": [
+      "хранить",
+      "сохранять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[slˈiːp]",
+      "word": "sleep"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[slˈept]",
+      "word": "slept"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[slˈept]",
+      "word": "slept"
+    },
+    "ru": [
+      "спать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[lˈiːp]",
+      "word": "leap"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[lˈept]",
+      "word": "leapt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[lˈept]",
+      "word": "leapt"
+    },
+    "ru": [
+      "прыгать",
+      "скакать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[krˈiːp]",
+      "word": "creep"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[krˈept]",
+      "word": "crept"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[krˈept]",
+      "word": "crept"
+    },
+    "ru": [
+      "ползти"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[wˈiːp]",
+      "word": "weep"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[wˈept]",
+      "word": "wept"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[wˈept]",
+      "word": "wept"
+    },
+    "ru": [
+      "плакать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "i",
+      "transcription": "[swˈiːp]",
+      "word": "sweep"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[swˈept]",
+      "word": "swept"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[swˈept]",
+      "word": "swept"
+    },
+    "ru": [
+      "подметать",
+      "промчаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[spˈend]",
+      "word": "spend"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[spˈent]",
+      "word": "spent"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[spˈent]",
+      "word": "spent"
+    },
+    "ru": [
+      "тратить",
+      "проводить время"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[sˈend]",
+      "word": "send"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[sˈent]",
+      "word": "sent"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[sˈent]",
+      "word": "sent"
+    },
+    "ru": [
+      "посылать",
+      "присылать",
+      "отправлять",
+      "отсылать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[bˈend]",
+      "word": "bend"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[bˈent]",
+      "word": "bent"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[bˈent]",
+      "word": "bent"
+    },
+    "ru": [
+      "гнуть",
+      "наклоняться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[lˈend]",
+      "word": "lend"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[lˈent]",
+      "word": "lent"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[lˈent]",
+      "word": "lent"
+    },
+    "ru": [
+      "давать взаймы"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[blend]",
+      "word": "blend"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[blˈent]",
+      "word": "blent"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[blˈent]",
+      "word": "blent"
+    },
+    "ru": [
+      "смешивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[bˈɪld]",
+      "word": "build"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[bˈɪlt]",
+      "word": "built"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[bˈɪlt]",
+      "word": "built"
+    },
+    "ru": [
+      "строить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "d",
+      "transcription": "[ˌriːˈbɪld]",
+      "word": "rebuild"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[ˌriːˈbɪlt]",
+      "word": "rebuilt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[ˌriːˈbɪlt]",
+      "word": "rebuilt"
+    },
+    "ru": [
+      "перестроить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[hˈæv]/[hˈæz]",
+      "word": "have"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[hˈæd]",
+      "word": "had"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[hˈæd]",
+      "word": "had"
+    },
+    "ru": [
+      "иметь",
+      "обладать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[sˈeɪː]",
+      "word": "say"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[sˈed]",
+      "word": "said"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[sˈed]",
+      "word": "said"
+    },
+    "ru": [
+      "сказать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[mˈeɪːk]",
+      "word": "make"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[mˈeɪːd]",
+      "word": "made"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[mˈeɪːd]",
+      "word": "made"
+    },
+    "ru": [
+      "делать",
+      "производить",
+      "заставлять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[pˈeɪː]",
+      "word": "pay"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[pˈeɪːd]",
+      "word": "paid"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[pˈeɪːd]",
+      "word": "paid"
+    },
+    "ru": [
+      "платить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[rɪˈpeɪ]",
+      "word": "repay"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[riːˈpeɪd]",
+      "word": "repaid"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[riːˈpeɪd]",
+      "word": "repaid"
+    },
+    "ru": [
+      "отдавать долг"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[lˈeɪː]",
+      "word": "lay"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[lˈeɪːd]",
+      "word": "laid"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[lˈeɪːd]",
+      "word": "laid"
+    },
+    "ru": [
+      "лежать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[skiː]",
+      "word": "ski"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[ski:d]",
+      "word": "skied"
+    },
+    "past_participle": {
+      "sound": "d",
+      "transcription": "[ski:d]",
+      "word": "skied"
+    },
+    "ru": [
+      "ходить на лыжах"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[klɪp]",
+      "word": "clip"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[klɪpt]",
+      "word": "clipped"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[klɪpt]",
+      "word": "clipt"
+    },
+    "ru": [
+      "стричь",
+      "подрезать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[lˈɜːn]",
+      "word": "learn"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[lˈɜːnt]",
+      "word": "learnt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[lˈɜːnt]",
+      "word": "learnt"
+    },
+    "ru": [
+      "изучать",
+      "узнавать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈɜːn]",
+      "word": "burn"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[bˈɜːnt]",
+      "word": "burnt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[bˈɜːnt]",
+      "word": "burnt"
+    },
+    "ru": [
+      "жечь"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[tɒs]",
+      "word": "toss"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[tɒst]",
+      "word": "tost"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[tɒst]",
+      "word": "tost"
+    },
+    "ru": [
+      "бросать",
+      "кидать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[spˈɔɪːl]",
+      "word": "spoil"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[spˈɔɪːlt]",
+      "word": "spoilt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[spˈɔɪːlt]",
+      "word": "spoilt"
+    },
+    "ru": [
+      "портить",
+      "баловать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ræp]",
+      "word": "wrap"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[ræpt]",
+      "word": "wrapt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[ræpt]",
+      "word": "wrapt"
+    },
+    "ru": [
+      "окутывать",
+      "оборачивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[klæp]",
+      "word": "clap"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[klæpt]",
+      "word": "clapt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[klæpt]",
+      "word": "clapt"
+    },
+    "ru": [
+      "хлопать ладонями",
+      "аплодировать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[smˈel]",
+      "word": "smell"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[smelt]",
+      "word": "smelt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[smelt]",
+      "word": "smelt"
+    },
+    "ru": [
+      "обонять",
+      "чуять",
+      "нюхать",
+      "пахнуть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[spˈel]",
+      "word": "spell"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[spˈelt]",
+      "word": "spelt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[spˈelt]",
+      "word": "spelt"
+    },
+    "ru": [
+      "произносить по буквам"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[dwˈel]",
+      "word": "dwell"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[dwˈelt]",
+      "word": "dwelt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[dwˈelt]",
+      "word": "dwelt"
+    },
+    "ru": [
+      "обитать",
+      "задерживаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[spˈɪl]",
+      "word": "spill"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[spˈɪlt]",
+      "word": "spilt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[spˈɪlt]",
+      "word": "spilt"
+    },
+    "ru": [
+      "проливать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bles]",
+      "word": "bless"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[blest]",
+      "word": "blest"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[blest]",
+      "word": "blest"
+    },
+    "ru": [
+      "благословлять"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[dɪp]",
+      "word": "dip"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[dˈɪpt]",
+      "word": "dipt"
+    },
+    "past_participle": {
+      "sound": "t",
+      "transcription": "[dˈɪpt]",
+      "word": "dipt"
+    },
+    "ru": [
+      "погружать",
+      "окунать",
+      "макать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[kˈʌm]",
+      "word": "come"
+    },
+    "past": {
+      "sound": "eɪ",
+      "transcription": "[kˈeɪːm]",
+      "word": "came"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[kʌm]",
+      "word": "come"
+    },
+    "ru": [
+      "приходить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[bɪˈkʌm]",
+      "word": "become"
+    },
+    "past": {
+      "sound": "eɪ",
+      "transcription": "[bɪˈkeɪm]",
+      "word": "became"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[bɪˈkʌm]",
+      "word": "become"
+    },
+    "ru": [
+      "становиться",
+      "делаться",
+      "превращаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[ˌouvəˈkʌm]",
+      "word": "overcome"
+    },
+    "past": {
+      "sound": "eɪ",
+      "transcription": "[ˌouvəˈkeɪm]",
+      "word": "overcame"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[ˌouvəˈkʌm]",
+      "word": "overcome"
+    },
+    "ru": [
+      "преодолеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "ʌ",
+      "transcription": "[rˈʌn]",
+      "word": "run"
+    },
+    "past": {
+      "sound": "æ",
+      "transcription": "[rˈæn]",
+      "word": "ran"
+    },
+    "past_participle": {
+      "sound": "ʌ",
+      "transcription": "[rʌn]",
+      "word": "run"
+    },
+    "ru": [
+      "бежать",
+      "течь"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈiː]",
+      "word": "be"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[wˈɒz]",
+      "word": "was"
+    },
+    "past_participle": {
+      "sound": "",
+      "transcription": "[bˈiːn]",
+      "word": "been"
+    },
+    "ru": [
+      "быть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[gou]",
+      "word": "go"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[wˈent]",
+      "word": "went"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[gˈɒn]",
+      "word": "gone"
+    },
+    "ru": [
+      "идти"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈgou]",
+      "word": "undergo"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈwent]",
+      "word": "underwent"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˌʌndəˈgɒn]",
+      "word": "undergone"
+    },
+    "ru": [
+      "испытывать",
+      "подвергаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈiːt]",
+      "word": "beat"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[biːt]",
+      "word": "beat"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[bˈiːtn̩]",
+      "word": "beaten"
+    },
+    "ru": [
+      "бить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[kɑːv]",
+      "word": "carve"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[kɔ:v]",
+      "word": "corve"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ʹkɑ:v(ə)n]",
+      "word": "carven"
+    },
+    "ru": [
+      "вырезать",
+      "разделывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[sˈɔː]",
+      "word": "saw"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[sˈɔːd]",
+      "word": "sawed"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[sˈɔːn]",
+      "word": "sawn"
+    },
+    "ru": [
+      "пилить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ʃou]",
+      "word": "show"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[ʃoud]",
+      "word": "showed"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ʃoun]",
+      "word": "shown"
+    },
+    "ru": [
+      "показывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[sou]",
+      "word": "sew"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[soud]",
+      "word": "sewed"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[səʋn]",
+      "word": "sewn"
+    },
+    "ru": [
+      "шить",
+      "сшивать",
+      "зашивать",
+      "пришивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[grˈeɪːv]",
+      "word": "grave"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[grˈeɪːvd]",
+      "word": "graved"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˈɡreɪv(ə)n]",
+      "word": "graven"
+    },
+    "ru": [
+      "гравировать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ʃeɪp]",
+      "word": "shape"
+    },
+    "past": {
+      "sound": "t",
+      "transcription": "[ʃeɪpt]",
+      "word": "shaped"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ʹʃeıpən]",
+      "word": "shapen"
+    },
+    "ru": [
+      "придавать форму"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ʃˈeɪːv]",
+      "word": "shave"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[ʃˈeɪːvd]",
+      "word": "shaved"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˈʃeɪv(ə)n]",
+      "word": "shaven"
+    },
+    "ru": [
+      "брить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[prˈuːv]",
+      "word": "prove"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[prˈuːvd]",
+      "word": "proved"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[pru:vn]",
+      "word": "proven"
+    },
+    "ru": [
+      "доказывать",
+      "оказаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[melt]",
+      "word": "melt"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[ˈmeltɪd]",
+      "word": "melted"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˈmoult(ə)n]",
+      "word": "molten"
+    },
+    "ru": [
+      "плавить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[swel]",
+      "word": "swell"
+    },
+    "past": {
+      "sound": "d",
+      "transcription": "[sweld]",
+      "word": "swelled"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[swoulən]",
+      "word": "swollen"
+    },
+    "ru": [
+      "надувать",
+      "раздувать",
+      "набухать",
+      "опухать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[dˈuː]/[dˈʌz]",
+      "word": "do"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[dˈɪd]",
+      "word": "did"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[dˈʌn]",
+      "word": "done"
+    },
+    "ru": [
+      "делать",
+      "выполнять",
+      "заниматься"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ʌnˈduː]",
+      "word": "undo"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ʌnˈdɪd]",
+      "word": "undid"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ʌnˈdʌn]",
+      "word": "undone"
+    },
+    "ru": [
+      "уничтожать сделанное",
+      "развязывать",
+      "расстёгивать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[gˈɪv]",
+      "word": "give"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[gˈeɪːv]",
+      "word": "gave"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[gˈɪvn̩]",
+      "word": "given"
+    },
+    "ru": [
+      "дать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[fəˈgɪv]",
+      "word": "forgive"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[fəˈgeɪv]",
+      "word": "forgave"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[fəˈgɪvn]",
+      "word": "forgiven"
+    },
+    "ru": [
+      "прощать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈɪd]",
+      "word": "bid"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[bˈeɪd]",
+      "word": "bade"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[bˈɪdn̩]",
+      "word": "bidden"
+    },
+    "ru": [
+      "предлагать цену",
+      "велеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[fəˈbɪd]",
+      "word": "forbid"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[fəˈbeɪd]",
+      "word": "forbade"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[fəˈbɪdn]",
+      "word": "forbidden"
+    },
+    "ru": [
+      "запрещать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˈiːt]",
+      "word": "eat"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˈeɪt]",
+      "word": "ate"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˈiːtn̩]",
+      "word": "eaten"
+    },
+    "ru": [
+      "есть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[lˈaɪ]",
+      "word": "lie"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[lˈeɪː]",
+      "word": "lay"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[lˈeɪːn]",
+      "word": "lain"
+    },
+    "ru": [
+      "лежать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈlaɪ]",
+      "word": "underlie"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈleɪ]",
+      "word": "underlay"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˌʌndəˈleɪn]",
+      "word": "underlain"
+    },
+    "ru": [
+      "лежать в основе"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[rˈaɪt]",
+      "word": "write"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[rout]",
+      "word": "wrote"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[rˈɪtn̩]",
+      "word": "written"
+    },
+    "ru": [
+      "писать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˌriːˈraɪt]",
+      "word": "rewrite"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˌriːˈrout]",
+      "word": "rewrote"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˌriːˈrɪtn]",
+      "word": "rewritten"
+    },
+    "ru": [
+      "перезаписать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[drˈaɪv]",
+      "word": "drive"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[drouv]",
+      "word": "drove"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[drˈɪvn̩]",
+      "word": "driven"
+    },
+    "ru": [
+      "водить машину"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[rˈaɪz]",
+      "word": "rise"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[rouz]",
+      "word": "rose"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[rˈɪzn̩]",
+      "word": "risen"
+    },
+    "ru": [
+      "подниматься",
+      "вставать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[əˈraɪz]",
+      "word": "arise"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[əˈrouz]",
+      "word": "arose"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[əˈrɪzn]",
+      "word": "arisen"
+    },
+    "ru": [
+      "подняться",
+      "возникнуть",
+      "появляться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[rˈaɪd]",
+      "word": "ride"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[roud]",
+      "word": "rode"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[rˈɪdn̩]",
+      "word": "ridden"
+    },
+    "ru": [
+      "ездить верхом"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[θrˈaɪv]",
+      "word": "thrive"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[θrouv]",
+      "word": "throve"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[θrˈɪvən]",
+      "word": "thriven"
+    },
+    "ru": [
+      "процветать",
+      "преуспевать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[strˈaɪv]",
+      "word": "strive"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[strouv]",
+      "word": "strove"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[strˈɪvn̩]",
+      "word": "striven"
+    },
+    "ru": [
+      "стараться",
+      "прилагать усилия"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[strˈaɪd]",
+      "word": "stride"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[stroud]",
+      "word": "strode"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[strˈɪdn̩]",
+      "word": "stridden"
+    },
+    "ru": [
+      "шагать",
+      "наносить удар"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[flˈaɪ]",
+      "word": "fly"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[flˈuː]",
+      "word": "flew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[floun]",
+      "word": "flown"
+    },
+    "ru": [
+      "летать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[fˈɔːl]",
+      "word": "fall"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[fˈel]",
+      "word": "fell"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[fˈɔːlən]",
+      "word": "fallen"
+    },
+    "ru": [
+      "падать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[sˈiː]",
+      "word": "see"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[sˈɔː]",
+      "word": "saw"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[sˈiːn]",
+      "word": "seen"
+    },
+    "ru": [
+      "смотреть",
+      "видеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˌouvəˈsiː]",
+      "word": "oversee"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˌouvəˈsɔː]",
+      "word": "oversaw"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˌouvəˈsiːn]",
+      "word": "overseen"
+    },
+    "ru": [
+      "надзирать",
+      "наблюдать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[fɔːˈsiː]",
+      "word": "foresee"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[fɔːˈsɔː]",
+      "word": "foresaw"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[fɔːˈsiːn]",
+      "word": "foreseen"
+    },
+    "ru": [
+      "предвидеть"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[drˈɔː]",
+      "word": "draw"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[drˈuː]",
+      "word": "drew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[drˈɔːn]",
+      "word": "drawn"
+    },
+    "ru": [
+      "рисовать",
+      "чертить",
+      "тащить",
+      "тянуть",
+      "волочить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[wɪðˈdrɔː]",
+      "word": "withdraw"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[wɪðˈdruː]",
+      "word": "withdrew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[wɪðˈdrɔːn]",
+      "word": "withdrawn"
+    },
+    "ru": [
+      "отнимать",
+      "отказываться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[nou]",
+      "word": "know"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[njˈuː]",
+      "word": "knew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[noun]",
+      "word": "known"
+    },
+    "ru": [
+      "знать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[grou]",
+      "word": "grow"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[grˈuː]",
+      "word": "grew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[groun]",
+      "word": "grown"
+    },
+    "ru": [
+      "расти"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[θrou]",
+      "word": "throw"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[θrˈuː]",
+      "word": "threw"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[θroun]",
+      "word": "thrown"
+    },
+    "ru": [
+      "бросать",
+      "кидать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[blou]",
+      "word": "blow"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[blˈuː]",
+      "word": "blew"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[bloun]",
+      "word": "blown"
+    },
+    "ru": [
+      "дуть",
+      "цвести",
+      "расцветать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[tˈeɪːk]",
+      "word": "take"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[tˈʊk]",
+      "word": "took"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[tˈeɪːkən]",
+      "word": "taken"
+    },
+    "ru": [
+      "брать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[mɪsˈteɪk]",
+      "word": "mistake"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[mɪsˈtʊk]",
+      "word": "mistook"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[mɪsˈteɪkən]",
+      "word": "mistaken"
+    },
+    "ru": [
+      "ошибаться"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈteɪk]",
+      "word": "undertake"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ˌʌndəˈtʊk]",
+      "word": "undertook"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ˌʌndəˈteɪkən]",
+      "word": "undertaken"
+    },
+    "ru": [
+      "предпринимать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[ʃˈeɪːk]",
+      "word": "shake"
+    },
+    "past": {
+      "sound": "",
+      "transcription": "[ʃʋk]",
+      "word": "shook"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[ʃˈeɪːkən]",
+      "word": "shaken"
+    },
+    "ru": [
+      "трясти"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[spˈiːk]",
+      "word": "speak"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[spouk]",
+      "word": "spoke"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[spoukən]",
+      "word": "spoken"
+    },
+    "ru": [
+      "говорить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[stˈiːl]",
+      "word": "steal"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[stoul]",
+      "word": "stole"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[stoulən]",
+      "word": "stolen"
+    },
+    "ru": [
+      "красть",
+      "воровать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[frˈiːz]",
+      "word": "freeze"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[frouz]",
+      "word": "froze"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[frouzən]",
+      "word": "frozen"
+    },
+    "ru": [
+      "замерзать",
+      "замораживать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[wˈiːv]",
+      "word": "weave"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[wouv]",
+      "word": "wove"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[wouvən]",
+      "word": "woven"
+    },
+    "ru": [
+      "ткать",
+      "плести"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[fəˈget]",
+      "word": "forget"
+    },
+    "past": {
+      "sound": "ɒ",
+      "transcription": "[fəˈgɒt]",
+      "word": "forgot"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[fəʹgotn]",
+      "word": "forgotten"
+    },
+    "ru": [
+      "забывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[brˈeɪːk]",
+      "word": "break"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[brouk]",
+      "word": "broke"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[broukən]",
+      "word": "broken"
+    },
+    "ru": [
+      "сломать",
+      "разбить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[wˈeɪːk]",
+      "word": "wake"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[wouk]",
+      "word": "woke"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[woukən]",
+      "word": "woken"
+    },
+    "ru": [
+      "просыпаться",
+      "будить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[əˈweɪk]",
+      "word": "awake"
+    },
+    "past": {
+      "sound": "ou",
+      "transcription": "[əˈwouk]",
+      "word": "awoke"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[əˈwoukən]",
+      "word": "awoken"
+    },
+    "ru": [
+      "просыпаться",
+      "будить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[wˈeəː]",
+      "word": "wear"
+    },
+    "past": {
+      "sound": "ɔː",
+      "transcription": "[wˈɔː]",
+      "word": "wore"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[wˈɔːn]",
+      "word": "worn"
+    },
+    "ru": [
+      "носить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈeəː]",
+      "word": "bear"
+    },
+    "past": {
+      "sound": "ɔː",
+      "transcription": "[bˈɔː]",
+      "word": "bore"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[bˈɔːn]",
+      "word": "born"
+    },
+    "ru": [
+      "родить",
+      "нести",
+      "переносить",
+      "выносить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[tˈeəː]",
+      "word": "tear"
+    },
+    "past": {
+      "sound": "ɔː",
+      "transcription": "[tˈɔː]",
+      "word": "tore"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[tˈɔːn]",
+      "word": "torn"
+    },
+    "ru": [
+      "рвать",
+      "разрывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[swˈeəː]",
+      "word": "swear"
+    },
+    "past": {
+      "sound": "ɔː",
+      "transcription": "[swˈɔː]",
+      "word": "swore"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[swˈɔːn]",
+      "word": "sworn"
+    },
+    "ru": [
+      "клясться",
+      "ругаться",
+      "сквернословить"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[hˈaɪd]",
+      "word": "hide"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[hˈɪd]",
+      "word": "hid"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[hˈɪdn̩]",
+      "word": "hidden"
+    },
+    "ru": [
+      "прятать",
+      "скрывать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[bˈaɪt]",
+      "word": "bite"
+    },
+    "past": {
+      "sound": "ɪ",
+      "transcription": "[bˈɪt]",
+      "word": "bit"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[bıtn]",
+      "word": "bitten"
+    },
+    "ru": [
+      "кусать"
+    ]
+  },
+  {
+    "infinitive": {
+      "sound": "",
+      "transcription": "[tʃˈuːz]",
+      "word": "choose"
+    },
+    "past": {
+      "sound": "o",
+      "transcription": "[tʃouz]",
+      "word": "chose"
+    },
+    "past_participle": {
+      "sound": "n",
+      "transcription": "[tʃouzən]",
+      "word": "chosen"
+    },
+    "ru": [
+      "выбирать"
+    ]
+  }
+]

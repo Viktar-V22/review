@@ -1,0 +1,640 @@
+[
+  {
+    "en": "foe",
+    "ru": [
+      "враг"
+    ],
+    "transcription": "fō"
+  },
+  {
+    "en": "bead",
+    "ru": [
+      "бусина"
+    ],
+    "transcription": "bēd"
+  },
+  {
+    "en": "hod",
+    "ru": [
+      "лоток",
+      "корыто"
+    ],
+    "transcription": "häd"
+  },
+  {
+    "en": "heel",
+    "ru": [
+      "пятка",
+      "каблук"
+    ],
+    "transcription": "hēl"
+  },
+  {
+    "en": "hoe",
+    "ru": [
+      "мотыга"
+    ],
+    "transcription": "hō"
+  },
+  {
+    "en": "foil",
+    "ru": [
+      "фольга"
+    ],
+    "transcription": "fɔɪl"
+  },
+  {
+    "en": "mate",
+    "ru": [
+      "приятель"
+    ],
+    "transcription": "māt"
+  },
+  {
+    "en": "stale",
+    "ru": [
+      "черствый",
+      "несвежий"
+    ],
+    "transcription": "stāl"
+  },
+  {
+    "en": "hail",
+    "ru": [
+      "град"
+    ],
+    "transcription": "hāl"
+  },
+  {
+    "en": "haze",
+    "ru": [
+      "мгла",
+      "дымка"
+    ],
+    "transcription": "hāz"
+  },
+  {
+    "en": "casket",
+    "ru": [
+      "шкатулка",
+      "гроб"
+    ],
+    "transcription": "ˈkaskət"
+  },
+  {
+    "en": "scoop",
+    "ru": [
+      "совок",
+      "ковш"
+    ],
+    "transcription": "sko͞op"
+  },
+  {
+    "en": "hoot",
+    "ru": [
+      "гудок",
+      "уханье"
+    ],
+    "transcription": "ho͞ot"
+  },
+  {
+    "en": "hook",
+    "ru": [
+      "крючок",
+      "крюк"
+    ],
+    "transcription": "ho͝ok"
+  },
+  {
+    "en": "soot",
+    "ru": [
+      "сажа",
+      "копоть"
+    ],
+    "transcription": "so͝ot"
+  },
+  {
+    "en": "spoor",
+    "ru": [
+      "след"
+    ],
+    "transcription": "spo͝or"
+  },
+  {
+    "en": "boor",
+    "ru": [
+      "хам"
+    ],
+    "transcription": "bo͝or"
+  },
+  {
+    "en": "lure",
+    "ru": [
+      "приманка"
+    ],
+    "transcription": "lo͝or"
+  },
+  {
+    "en": "oath",
+    "ru": [
+      "клятва"
+    ],
+    "transcription": "ōTH"
+  },
+  {
+    "en": "fin",
+    "ru": [
+      "плавник"
+    ],
+    "transcription": "fin"
+  },
+  {
+    "en": "fan",
+    "ru": [
+      "вентилятор"
+    ],
+    "transcription": "fan"
+  },
+  {
+    "en": "oaf",
+    "ru": [
+      "тупица",
+      "болван"
+    ],
+    "transcription": "ōf"
+  },
+  {
+    "en": "moss",
+    "ru": [
+      "мох"
+    ],
+    "transcription": "môs"
+  },
+  {
+    "en": "dull",
+    "ru": [
+      "скучный"
+    ],
+    "transcription": "dəl"
+  },
+  {
+    "en": "struggle",
+    "ru": [
+      "борьба"
+    ],
+    "transcription": "ˈstrəɡəl"
+  },
+  {
+    "en": "sewage",
+    "ru": [
+      "сточные воды",
+      "канализация"
+    ],
+    "transcription": "ˈso͞oij"
+  },
+  {
+    "en": "reliability",
+    "ru": [
+      "надежность"
+    ],
+    "transcription": "rəˌlīəˈbilədē"
+  },
+  {
+    "en": "cereals",
+    "ru": [
+      "хлопья",
+      "злаки"
+    ],
+    "transcription": "ˈsɪəriəl"
+  },
+  {
+    "en": "pinky",
+    "ru": [
+      "мизинец"
+    ],
+    "transcription": "ˈpiNGkē"
+  },
+  {
+    "en": "fever",
+    "ru": [
+      "лихорадка",
+      "жар"
+    ],
+    "transcription": "ˈfēvər"
+  },
+  {
+    "en": "hazelnut",
+    "ru": [
+      "лесной орех",
+      "фундук"
+    ],
+    "transcription": "ˈhāzəlˌnət"
+  },
+  {
+    "en": "sip",
+    "ru": [
+      "глоток"
+    ],
+    "transcription": "sip"
+  },
+  {
+    "en": "distract",
+    "ru": [
+      "отвлекать"
+    ],
+    "transcription": "dəˈstrakt"
+  },
+  {
+    "en": "sassy",
+    "ru": [
+      "нахальный"
+    ],
+    "transcription": "ˈsasē"
+  },
+  {
+    "en": "outline",
+    "ru": [
+      "план",
+      "контур"
+    ],
+    "transcription": "ˈoutˌlīn"
+  },
+  {
+    "en": "entire",
+    "ru": [
+      "весь"
+    ],
+    "transcription": "ənˈtī(ə)r"
+  },
+  {
+    "en": "dedicate",
+    "ru": [
+      "посвящать себя"
+    ],
+    "transcription": "ˈdedəˌkāt"
+  },
+  {
+    "en": "affair",
+    "ru": [
+      "измена",
+      "интрижка",
+      "дело"
+    ],
+    "transcription": "əˈfer"
+  },
+  {
+    "en": "purpose",
+    "ru": [
+      "цель"
+    ],
+    "transcription": "ˈpərpəs"
+  },
+  {
+    "en": "negligent",
+    "ru": [
+      "небрежный"
+    ],
+    "transcription": "ˈneɡləjənt"
+  },
+  {
+    "en": "approximately",
+    "ru": [
+      "примерно"
+    ],
+    "transcription": "əˈpräksəmətlē"
+  },
+  {
+    "en": "saturated",
+    "ru": [
+      "насыщенный"
+    ],
+    "transcription": "ˈsaCHəˌrādəd"
+  },
+  {
+    "en": "entail",
+    "ru": [
+      "влекут за собой"
+    ],
+    "transcription": "ɪnˈteɪl"
+  },
+  {
+    "en": "fragile",
+    "ru": [
+      "хрупкий"
+    ],
+    "transcription": "ˈfrajəl"
+  },
+  {
+    "en": "shoulder",
+    "ru": [
+      "плечо"
+    ],
+    "transcription": "ˈSHōldər"
+  },
+  {
+    "en": "robber",
+    "ru": [
+      "грабитель"
+    ],
+    "transcription": "ˈräbər"
+  },
+  {
+    "en": "council",
+    "ru": [
+      "совет"
+    ],
+    "transcription": "ˈkounsəl"
+  },
+  {
+    "en": "halt",
+    "ru": [
+      "остановка"
+    ],
+    "transcription": "hôlt"
+  },
+  {
+    "en": "reliance",
+    "ru": [
+      "опора"
+    ],
+    "transcription": "rəˈlīəns"
+  },
+  {
+    "en": "evaluation",
+    "ru": [
+      "оценка"
+    ],
+    "transcription": "əˌvalyəˈwāSH(ə)n"
+  },
+  {
+    "en": "commitment",
+    "ru": [
+      "обязательство"
+    ],
+    "transcription": "kəˈmitmənt"
+  },
+  {
+    "en": "rod",
+    "ru": [
+      "стержень"
+    ],
+    "transcription": "räd"
+  },
+  {
+    "en": "domestic",
+    "ru": [
+      "внутренний",
+      "бытовой"
+    ],
+    "transcription": "dəˈmestik"
+  },
+  {
+    "en": "willow",
+    "ru": [
+      "ива"
+    ],
+    "transcription": "ˈwilō"
+  },
+  {
+    "en": "flax",
+    "ru": [
+      "лен"
+    ],
+    "transcription": "flaks"
+  },
+  {
+    "en": "rug",
+    "ru": [
+      "ковер"
+    ],
+    "transcription": "rəɡ"
+  },
+  {
+    "en": "taint",
+    "ru": [
+      "портить"
+    ],
+    "transcription": "tānt"
+  },
+  {
+    "en": "infusion",
+    "ru": [
+      "настой",
+      "вливание"
+    ],
+    "transcription": "inˈfyo͞oZHən"
+  },
+  {
+    "en": "hurry",
+    "ru": [
+      "торопиться"
+    ],
+    "transcription": "ˈhərē"
+  },
+  {
+    "en": "fancy",
+    "ru": [
+      "воображение"
+    ],
+    "transcription": "ˈfansē"
+  },
+  {
+    "en": "obey",
+    "ru": [
+      "подчиняться"
+    ],
+    "transcription": "əˈbā"
+  },
+  {
+    "en": "vigorous",
+    "ru": [
+      "энергичный"
+    ],
+    "transcription": "ˈviɡ(ə)rəs"
+  },
+  {
+    "en": "immense",
+    "ru": [
+      "огромный",
+      "необъятный"
+    ],
+    "transcription": "iˈmens"
+  },
+  {
+    "en": "claim",
+    "ru": [
+      "запрос"
+    ],
+    "transcription": "klām"
+  },
+  {
+    "en": "coffin",
+    "ru": [
+      "гроб"
+    ],
+    "transcription": "ˈkôfən"
+  },
+  {
+    "en": "chalk",
+    "ru": [
+      "мел"
+    ],
+    "transcription": "CHôk"
+  },
+  {
+    "en": "insist",
+    "ru": [
+      "настаивать на своем"
+    ],
+    "transcription": "inˈsist"
+  },
+  {
+    "en": "eventually",
+    "ru": [
+      "в конце концов"
+    ],
+    "transcription": "əˈven(t)SH(o͞o)əlē"
+  },
+  {
+    "en": "suddenly",
+    "ru": [
+      "внезапно",
+      "вдруг"
+    ],
+    "transcription": "ˈsədnlē"
+  },
+  {
+    "en": "pervert",
+    "ru": [
+      "извращенец"
+    ],
+    "transcription": "pəˈvɜːt"
+  },
+  {
+    "en": "incense",
+    "ru": [
+      "ладан"
+    ],
+    "transcription": "ˈɪn.sens"
+  },
+  {
+    "en": "lamb",
+    "ru": [
+      "ягненок"
+    ],
+    "transcription": "lam"
+  },
+  {
+    "en": "tinder",
+    "ru": [
+      "трут"
+    ],
+    "transcription": "ˈtindər"
+  },
+  {
+    "en": "barrow",
+    "ru": [
+      "курган"
+    ],
+    "transcription": "ˈberō"
+  },
+  {
+    "en": "nowadays",
+    "ru": [
+      "наши дни",
+      "современность",
+      "настоящее время"
+    ],
+    "transcription": "ˈnouəˌdāz"
+  },
+  {
+    "en": "belong",
+    "ru": [
+      "принадлежать",
+      "относиться"
+    ],
+    "transcription": "bəˈlôNG"
+  },
+  {
+    "en": "hardly",
+    "ru": [
+      "едва",
+      "вряд ли",
+      "чуть"
+    ],
+    "transcription": "ˈhärdlē"
+  },
+  {
+    "en": "dub",
+    "ru": [
+      "дублировать"
+    ],
+    "transcription": "dəb"
+  },
+  {
+    "en": "insult",
+    "ru": [
+      "оскорблять"
+    ],
+    "transcription": "ˈɪn.sʌlt"
+  },
+  {
+    "en": "bizarre",
+    "ru": [
+      "причудливый"
+    ],
+    "transcription": "bəˈzär"
+  },
+  {
+    "en": "broom",
+    "ru": [
+      "метла",
+      "веник"
+    ],
+    "transcription": "bro͞om"
+  },
+  {
+    "en": "grimy",
+    "ru": [
+      "грязный"
+    ],
+    "transcription": "ˈɡrīmē"
+  },
+  {
+    "en": "pelvis",
+    "ru": [
+      "таз"
+    ],
+    "transcription": "ˈɡrīmē"
+  },
+  {
+    "en": "tatters",
+    "ru": [
+      "лохмотья"
+    ],
+    "transcription": "ˈtæt.əz"
+  },
+  {
+    "en": "deed",
+    "ru": [
+      "дело",
+      "поступок"
+    ],
+    "transcription": "dēd"
+  },
+  {
+    "en": "moisture",
+    "ru": [
+      "влажность"
+    ],
+    "transcription": "ˈmoisCHər"
+  },
+  {
+    "en": "doodle",
+    "ru": [
+      "наброски",
+      "каракули"
+    ],
+    "transcription": "ˈdo͞odl"
+  }
+]

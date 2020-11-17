@@ -1,0 +1,159 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    android = [
+            buildTools: '30.0.0',
+            minSdk    : 21,
+            targetSdk : 30,
+            compileSdk: 30
+    ]
+
+    androidUi = [
+            materialDesign: '1.3.0-alpha03',
+            databinding   : '3.1.4'
+    ]
+
+    androidX = [
+            appCompat         : '1.2.0',
+            exif              : '1.1.0-beta01',
+            navigation        : '2.3.1',
+            constraintLayout  : '2.0.4',
+            recyclerView      : '1.0.0',
+            lifecycle         : '2.2.0',
+            room              : '2.2.5',
+            preference        : '1.1.1',
+            reactiveStreams   : '1.1.1',
+            swipeRefreshlayout: '1.1.0',
+            paging            : '3.0.0-alpha09'
+    ]
+
+    kotlin = [
+            version   : '1.4.10',
+            coroutines: '1.3.6',
+            serialize : '1.0.0'
+    ]
+
+    dagger = [version: '2.29.1']
+
+    gradle = [version: '4.1.1']
+
+    google = [
+            fabric           : '1.31.0',
+            firebaseCore     : '16.0.9',
+            firebaseAnalytics: '18.0.0',
+            crashlytics      : '2.10.1',
+            servicesPlugin   : '4.3.2',
+            crashlyticsPlugin: '1.31.0',
+            translation      : '1.95.3',
+            remoteConfig     : '19.1.3',
+            textToSpeech     : '1.2.3',
+            grpcOkhttp       : '1.33.1'
+    ]
+
+    rest = [
+            logginInterceptor: '4.9.0',
+            retrofit         : '2.9.0',
+            coroutineAdapter : '0.9.2',
+            retrofitConverter: '0.8.0'
+    ]
+
+    apache = [validator: '1.6']
+
+    jsr330 = [inject: '1']
+
+    squareup = [leakcanary: '2.0-beta-3']
+
+    test = [
+            jUnit     : '1.1.1',
+            testRunner: '1.3.0-alpha04',
+            espresso  : '3.3.0-alpha04'
+    ]
+
+    images = [coil: '1.0.0']
+
+    dependencies = [
+            // exif
+            exif                 : "androidx.exifinterface:exifinterface:${androidX.exif}",
+
+            // navigation
+            navigation           : "androidx.navigation:navigation-fragment-ktx:${androidX.navigation}",
+            navigationUi         : "androidx.navigation:navigation-ui-ktx:${androidX.navigation}",
+
+            // ui
+            appCompat            : "androidx.appcompat:appcompat:${androidX.appCompat}",
+            constraintLayout     : "androidx.constraintlayout:constraintlayout:${androidX.constraintLayout}",
+            swipeRefreshlayout   : "androidx.swiperefreshlayout:swiperefreshlayout:${androidX.swipeRefreshlayout}",
+            recyclerView         : "androidx.recyclerview:recyclerview:${androidX.recyclerView}",
+            materialDesign       : "com.google.android.material:material:${androidUi.materialDesign}",
+            databinding          : "com.android.databinding:compiler:${androidUi.databinding}",
+            coil                 : "io.coil-kt:coil:${images.coil}",
+
+            // paging
+            paging               : "androidx.paging:paging-runtime:${androidX.paging}",
+
+            // lifecycle
+            lifecycleExtensions  : "androidx.lifecycle:lifecycle-extensions:${androidX.lifecycle}",
+            lifecycleViewModel   : "androidx.lifecycle:lifecycle-viewmodel-ktx:${androidX.lifecycle}",
+            lifecycleCompiler    : "androidx.lifecycle:lifecycle-compiler:${androidX.lifecycle}",
+            lifecycleRuntime     : "androidx.lifecycle:lifecycle-runtime-ktx:${androidX.lifecycle}",
+
+            // google
+            firebaseCore         : "com.google.firebase:firebase-core:${google.firebaseCore}",
+            firebaseAnalytics    : "com.google.firebase:firebase-analytics:${google.firebaseAnalytics}",
+            remoteConfig         : "com.google.firebase:firebase-config:${google.remoteConfig}",
+            googleServicesPlugin : "com.google.gms:google-services:${google.servicesPlugin}",
+            crashlytics          : "com.crashlytics.sdk.android:crashlytics:${google.crashlytics}",
+            crashlyticsPlugin    : "io.fabric.tools:gradle:${google.crashlyticsPlugin}",
+            translation          : "com.google.cloud:google-cloud-translate:${google.translation}",
+            textToSpeech         : "com.google.cloud:google-cloud-texttospeech:${google.textToSpeech}",
+            grpcOkhttp           : "io.grpc:grpc-okhttp:${google.grpcOkhttp}",
+
+            // rest
+            logginInterceptor    : "com.squareup.okhttp3:logging-interceptor:${rest.logginInterceptor}",
+            retrofit             : "com.squareup.retrofit2:retrofit:${rest.retrofit}",
+            coroutineAdapter     : "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${rest.coroutineAdapter}",
+            retrofitConverter    : "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:${rest.retrofitConverter}",
+            retrofitScalars      : "com.squareup.retrofit2:converter-scalars:${rest.retrofit}",
+
+            // kotlin
+            kotlin               : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlin.version}",
+            kotlinPlugin         : "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlin.version}",
+            kotlinSerializePlugin: "org.jetbrains.kotlin:kotlin-serialization:${kotlin.version}",
+            kotlinSerialize      : "org.jetbrains.kotlinx:kotlinx-serialization-json:${kotlin.serialize}",
+
+            // di
+            dagger               : "com.google.dagger:dagger:${dagger.version}",
+            daggerCompiler       : "com.google.dagger:dagger-compiler:${dagger.version}",
+            inject               : "javax.inject:javax.inject:${jsr330.inject}",
+
+            // gradle
+            gradlePlugin         : "com.android.tools.build:gradle:${gradle.version}",
+
+            // apache
+            validator            : "commons-validator:commons-validator:${apache.validator}",
+
+            // room
+            room                 : "androidx.room:room-ktx:${androidX.room}",
+            roomCompiler         : "androidx.room:room-compiler:${androidX.room}",
+
+            // preference
+            preference           : "androidx.preference:preference-ktx:${androidX.preference}",
+
+            // analyze
+            leakcanary           : "com.squareup.leakcanary:leakcanary-android:${squareup.leakcanary}",
+
+            //coroutines
+            coroutines           : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${kotlin.coroutines}",
+            coroutinesAndroid    : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${kotlin.coroutines}",
+    ]
+
+    testDependencies = [
+            jUnit     : "androidx.test.ext:junit:${test.jUnit}",
+            testRunner: "androidx.test:runner:${test.testRunner}",
+            espresso  : "androidx.test.espresso:espresso-core:${test.espresso}"
+    ]
+}

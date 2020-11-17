@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/word_height">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_image"
+                android:layout_width="@dimen/word_height"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                app:errorHolder="@{@drawable/ic_error_load}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:leftBottomCorner="@{@dimen/def_radius}"
+                app:leftTopCorner="@{@dimen/def_radius}"
+                app:placeholder="@{@drawable/ic_progress_load}"
+                app:url="@{item.imageUrl}"
+                tools:src="@drawable/ic_progress_load" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_en"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/def_half_margin"
+                android:layout_marginEnd="@dimen/def_half_margin"
+                android:fontFamily="sans-serif-medium"
+                android:text="@{item.en}"
+                app:layout_constraintBottom_toTopOf="@id/tv_transcription"
+                app:layout_constraintEnd_toStartOf="@id/checkbox"
+                app:layout_constraintStart_toEndOf="@id/iv_image"
+                app:layout_constraintTop_toTopOf="@id/iv_image"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:text="Affair" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_transcription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{item.transcription}"
+                android:textSize="@dimen/def_small_text_size"
+                app:layout_constraintBottom_toTopOf="@id/tv_ru"
+                app:layout_constraintEnd_toEndOf="@id/tv_en"
+                app:layout_constraintStart_toStartOf="@id/tv_en"
+                app:layout_constraintTop_toBottomOf="@id/tv_en"
+                tools:text="[əˈfer]" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_ru"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{item.ru}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/tv_en"
+                app:layout_constraintStart_toStartOf="@id/tv_en"
+                app:layout_constraintTop_toBottomOf="@id/tv_transcription"
+                tools:text="дело, роман, интрижка" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_speech"
+                style="@style/AppTheme.TintImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/click_half_padding"
+                android:visibility="@{item.isChecked != null ? View.INVISIBLE : View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_volume_high"
+                tools:visibility="invisible" />
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="@{item.isChecked}"
+                android:visibility="@{item.isChecked == null ? View.INVISIBLE : View.VISIBLE}"
+                app:layout_constraintBottom_toBottomOf="@id/iv_speech"
+                app:layout_constraintEnd_toEndOf="@id/iv_speech"
+                app:layout_constraintStart_toStartOf="@id/iv_speech"
+                app:layout_constraintTop_toTopOf="@id/iv_speech" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.interactors.glossary.ItemWord" />
+    </data>
+</layout>

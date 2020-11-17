@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_size"
+        android:layout_marginStart="@dimen/def_margin"
+        android:layout_marginEnd="@dimen/def_margin"
+        tools:layout_marginTop="@dimen/def_margin">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@{item.result == Result.NONE ? @drawable/bg_transparent_round : item.result == Result.POSITIVE ? @drawable/bg_green_round : @drawable/bg_red_round}">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_translation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingEnd="0dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:text="@{item.translation}"
+                android:textColor="@color/reverse_text"
+                app:layout_constraintBottom_toTopOf="@id/tv_transcription"
+                app:layout_constraintEnd_toStartOf="@id/tv_correct"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"
+                app:selected="@{item.result == Result.NONE}"
+                tools:text="foil" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_correct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingEnd="0dp"
+                android:text="@{item.correct}"
+                android:textColor="@color/reverse_text"
+                android:visibility="@{item.result == Result.NEGATIVE ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="@id/tv_translation"
+                app:layout_constraintEnd_toStartOf="@id/iv_speech"
+                app:layout_constraintStart_toEndOf="@id/tv_translation"
+                app:layout_constraintTop_toTopOf="@id/tv_translation"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:visibility="gone"
+                app:selected="@{item.result == Result.NONE}"
+                tools:text="фольга" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_transcription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingEnd="0dp"
+                tools:visibility="gone"
+                android:text="@{item.transcription}"
+                android:textColor="@color/reverse_transparent_text"
+                android:textSize="12sp"
+                android:visibility="@{item.sourceLang == Language.RUSSIAN ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/iv_speech"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_translation"
+                app:selected="@{item.result == Result.NONE}"
+                tools:text="[fɔɪl]" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_speech"
+                style="@style/AppTheme.TintImage"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                tools:visibility="gone"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingEnd="@dimen/def_padding"
+                android:visibility="@{item.sourceLang == Language.RUSSIAN ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_correct"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_volume_high"
+                app:tintColor="@{item.result == Result.NONE ? reverseColor : whiteColor}" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.core.common.Result" />
+
+        <import type="com.core.common.Language" />
+
+        <variable
+            name="item"
+            type="com.interactors.translation.ItemTranslation" />
+
+        <variable
+            name="reverseColor"
+            type="com.presentation.core.views.ColorWrapper" />
+
+        <variable
+            name="whiteColor"
+            type="com.presentation.core.views.ColorWrapper" />
+
+    </data>
+</layout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/mute"
+            android:icon="@drawable/ic_volume_off"
+            app:iconTint="?attr/reverseColor"
+            android:title="@string/empty_string" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/count_10"
+            android:checkable="true"
+            android:title="@string/numeric_10"
+            app:iconTint="?attr/reverseColor" />
+
+        <item
+            android:id="@+id/count_20"
+            android:checkable="true"
+            android:title="@string/numeric_20"
+            app:iconTint="?attr/reverseColor" />
+
+        <item
+            android:id="@+id/count_30"
+            android:checkable="true"
+            android:title="@string/numeric_30"
+            app:iconTint="?attr/reverseColor" />
+
+        <item
+            android:id="@+id/count_all"
+            android:checkable="true"
+            android:title="@string/all"
+            app:iconTint="?attr/reverseColor" />
+    </group>
+</menu>
