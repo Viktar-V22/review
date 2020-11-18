@@ -23,6 +23,12 @@
         tools:layout="@layout/fragment_irregular" />
 
     <fragment
+        android:id="@+id/audition"
+        android:name="com.presentation.audition.AuditionFragment"
+        android:label="Audition"
+        tools:layout="@layout/fragment_audition" />
+
+    <fragment
         android:id="@+id/glossary"
         android:name="com.presentation.glossary.GlossaryFragment"
         android:label="Glossary"
@@ -44,5 +50,9 @@
         <action
             android:id="@+id/to_translation"
             app:destination="@id/translations" />
+
+        <action
+            android:id="@+id/to_audition"
+            app:destination="@id/audition" />
     </fragment>
 </navigation>

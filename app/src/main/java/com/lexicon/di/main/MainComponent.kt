@@ -13,7 +13,7 @@ import com.data.base.db.words.WordsDao
 import com.domain.core.speech.SpeechCase
 import com.lexicon.core.navigation.Router
 import com.lexicon.di.AppComponent
-import com.lexicon.di.base.trains.*
+import com.lexicon.di.base.trains.TrainsModule
 import com.lexicon.di.core.sound.SoundModule
 import com.lexicon.di.core.speech.SpeechModule
 import com.lexicon.di.navigation.NavigationModule
@@ -44,17 +44,7 @@ interface MainComponent {
     fun speechCase(): SpeechCase
 
     // trains
-    @IrregularStore
-    fun irregularStore(): TrainsSettingsStore
-
-    @RuEnStore
-    fun ruEnStore(): TrainsSettingsStore
-
-    @EnRuStore
-    fun enRuStore(): TrainsSettingsStore
-
-    @ConstructorStore
-    fun constructorStore(): TrainsSettingsStore
+    fun trainsSettingsStore(): TrainsSettingsStore
 
     fun resultRepository(): TrainsResultRepository
 

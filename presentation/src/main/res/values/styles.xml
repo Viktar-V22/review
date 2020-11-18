@@ -192,9 +192,8 @@
     </style>
 
     <!-- IRREGULAR -->
-    <style name="AppTheme.IrregularInput">
+    <style name="AppTheme.ResultInput">
         <item name="endIconMode">custom</item>
-        <item name="errorIconDrawable">@drawable/ic_volume_high</item>
         <item name="errorIconTint">?attr/reverseColor</item>
     </style>
 </resources>

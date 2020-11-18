@@ -19,5 +19,6 @@ class TrainsNavigation @Inject constructor(private val router: Router) : Navigat
         }
         ToConstructor -> router.navigate(R.id.to_constructor)
         ToIrregular -> router.navigate(R.id.to_irregular)
+        ToAudition -> router.navigate(R.id.to_audition)
     }
 }

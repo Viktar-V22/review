@@ -19,101 +19,28 @@ import dagger.Provides
 class TrainsModule {
 
     private companion object {
-        private const val IRREGULAR_PREFS = "irregular_prefs"
-        private const val CONSTRUCTOR_PREFS = "constructor_prefs"
-        private const val RU_EN_PREFS = "ru_en_prefs"
-        private const val EN_RU_PREFS = "en_ru_prefs"
+        private const val TRAINS_SETTINGS = "trains_settings_prefs"
     }
 
     @Provides
     @MainScope
-    @IrregularStore
-    fun provideIrregularPreferences(context: Context): SharedPreferences {
-        return context.getSharedPreferences(IRREGULAR_PREFS, Context.MODE_PRIVATE)
+    @TrainsSettings
+    fun provideTrainsSettingsPreferences(context: Context): SharedPreferences {
+        return context.getSharedPreferences(TRAINS_SETTINGS, Context.MODE_PRIVATE)
     }
 
     @Provides
     @MainScope
-    @IrregularStore
-    fun provideIrregularProperties(
-        @IrregularStore
+    @TrainsSettings
+    fun provideTrainsSettingsProperties(
+        @TrainsSettings
         prefs: SharedPreferences
     ): PropertiesStore = PreferenceStore(prefs)
 
     @Provides
     @MainScope
-    @RuEnStore
-    fun provideRuEnPreferences(context: Context): SharedPreferences {
-        return context.getSharedPreferences(RU_EN_PREFS, Context.MODE_PRIVATE)
-    }
-
-    @Provides
-    @MainScope
-    @RuEnStore
-    fun provideRuEnProperties(
-        @RuEnStore
-        prefs: SharedPreferences
-    ): PropertiesStore = PreferenceStore(prefs)
-
-    @Provides
-    @MainScope
-    @EnRuStore
-    fun provideEnRuPreferences(context: Context): SharedPreferences {
-        return context.getSharedPreferences(EN_RU_PREFS, Context.MODE_PRIVATE)
-    }
-
-    @Provides
-    @MainScope
-    @EnRuStore
-    fun provideEnRuProperties(
-        @EnRuStore
-        prefs: SharedPreferences
-    ): PropertiesStore = PreferenceStore(prefs)
-
-    @Provides
-    @MainScope
-    @ConstructorStore
-    fun provideConstructorPreferences(context: Context): SharedPreferences {
-        return context.getSharedPreferences(CONSTRUCTOR_PREFS, Context.MODE_PRIVATE)
-    }
-
-    @Provides
-    @MainScope
-    @ConstructorStore
-    fun provideConstructorProperties(
-        @EnRuStore
-        prefs: SharedPreferences
-    ): PropertiesStore = PreferenceStore(prefs)
-
-    @Provides
-    @MainScope
-    @IrregularStore
     fun provideIrregularStore(
-        @IrregularStore
-        properties: PropertiesStore
-    ): TrainsSettingsStore = TrainsSettingsStoreImpl(properties)
-
-    @Provides
-    @MainScope
-    @EnRuStore
-    fun provideEnRuStore(
-        @EnRuStore
-        properties: PropertiesStore
-    ): TrainsSettingsStore = TrainsSettingsStoreImpl(properties)
-
-    @Provides
-    @MainScope
-    @RuEnStore
-    fun provideRuEnStore(
-        @RuEnStore
-        properties: PropertiesStore
-    ): TrainsSettingsStore = TrainsSettingsStoreImpl(properties)
-
-    @Provides
-    @MainScope
-    @ConstructorStore
-    fun provideConstructorStore(
-        @ConstructorStore
+        @TrainsSettings
         properties: PropertiesStore
     ): TrainsSettingsStore = TrainsSettingsStoreImpl(properties)
 

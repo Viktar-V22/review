@@ -40,7 +40,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_infinitive"
-            style="@style/AppTheme.IrregularInput"
+            style="@style/AppTheme.ResultInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/def_margin"
@@ -48,6 +48,7 @@
             android:layout_marginEnd="@dimen/def_margin"
             android:hint="@string/infinitive"
             app:error="@{form.infinitiveError}"
+            app:errorIconDrawable="@drawable/ic_volume_high"
             app:layout_constraintBottom_toTopOf="@id/input_past"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -82,12 +83,13 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_past"
-            style="@style/AppTheme.IrregularInput"
+            style="@style/AppTheme.ResultInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/def_half_margin"
             android:hint="@string/past"
             app:error="@{form.pastError}"
+            app:errorIconDrawable="@drawable/ic_volume_high"
             app:layout_constraintBottom_toTopOf="@id/input_past_participle"
             app:layout_constraintEnd_toEndOf="@id/input_infinitive"
             app:layout_constraintStart_toStartOf="@id/input_infinitive"
@@ -121,12 +123,13 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_past_participle"
-            style="@style/AppTheme.IrregularInput"
+            style="@style/AppTheme.ResultInput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/def_half_margin"
             android:hint="@string/past_participle"
             app:error="@{form.ppError}"
+            app:errorIconDrawable="@drawable/ic_volume_high"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/input_infinitive"
             app:layout_constraintStart_toStartOf="@id/input_infinitive"

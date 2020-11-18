@@ -1,9 +1,6 @@
 package com.lexicon.di.irregular
 
 import android.content.res.AssetManager
-import com.boundaries.base.images.ImagesRepository
-import com.boundaries.base.trains.TrainsResultRepository
-import com.boundaries.base.trains.TrainsSettingsStore
 import com.boundaries.irregulars.Irregular
 import com.boundaries.irregulars.IrregularsRepository
 import com.core.common.Mapper
@@ -19,7 +16,6 @@ import com.domain.irregular.StateCaseImpl
 import com.interactors.irregular.Interactor
 import com.interactors.irregular.NavTarget
 import com.lexicon.di.FeatureScope
-import com.lexicon.di.base.trains.IrregularStore
 import com.lexicon.navigation.IrregularNavigation
 import com.presentation.core.Navigation
 import dagger.Binds
@@ -44,17 +40,11 @@ interface IrregularModule {
         ): IrregularsRepository {
             return IrregularsRepositoryImpl(assets, irregulars, toIrregularVerb, toDbIrregular)
         }
-
-        @Provides
-        @FeatureScope
-        fun provideStateCase(
-            irregulars: IrregularsRepository,
-            images: ImagesRepository,
-            results: TrainsResultRepository,
-            @IrregularStore
-            settings: TrainsSettingsStore
-        ): StateCase = StateCaseImpl(irregulars, images, results, settings)
     }
+
+    @Binds
+    @FeatureScope
+    fun provideStateCase(stateCase: StateCaseImpl): StateCase
 
     @Binds
     @FeatureScope

@@ -1,12 +1,14 @@
 package com.boundaries.base.trains
 
+import com.core.common.TrainType
+
 interface TrainsSettingsStore {
 
-    fun mute(isMute: Boolean)
+    fun mute(trainType: TrainType, isMute: Boolean)
 
-    fun isMute(): Boolean
+    fun isMute(trainType: TrainType): Boolean
 
-    fun count(count: Int)
+    fun count(trainType: TrainType, count: Int)
 
-    fun count(): Int
+    fun count(trainType: TrainType): Int
 }

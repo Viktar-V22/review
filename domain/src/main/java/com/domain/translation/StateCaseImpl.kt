@@ -15,15 +15,15 @@ import com.core.common.toBoolean
 import com.interactors.translation.ItemTranslation
 import com.interactors.translation.State
 import java.util.*
+import javax.inject.Inject
 import kotlin.collections.ArrayList
 import kotlin.collections.HashSet
 
-class StateCaseImpl(
+class StateCaseImpl @Inject constructor(
     private val words: WordsRepository,
     private val images: ImagesRepository,
     private val results: TrainsResultRepository,
-    private val ruEnSettings: TrainsSettingsStore,
-    private val enRuSettings: TrainsSettingsStore
+    private val settings: TrainsSettingsStore,
 ) : StateCase {
 
     private companion object {
@@ -62,7 +62,7 @@ class StateCaseImpl(
         answer = item.translation
     }
 
-    override fun isMute() = settings(sourceLang).isMute()
+    override fun isMute() = settings.isMute(sourceLang.toTrainType())
 
     override fun wordSpeech(isForce: Boolean) = if (trains.isEmpty()) "" else when (sourceLang) {
         ENGLISH -> if (answer.isEmpty() || isForce) trains.first.en else ""
@@ -109,18 +109,12 @@ class StateCaseImpl(
             transcriptions[word.en] = word.transcription
         }
 
-        val count = settings(sourceLang).count()
+        val count = settings.count(sourceLang.toTrainType())
         val ids = results.minResult(trainType(sourceLang), count)
         trains.addAll(all.filter { ids.contains(it.id) }.shuffled())
 
         variants.clear()
         variants.addAll(variants())
-    }
-
-    private fun settings(sourceLang: Language) = when (sourceLang) {
-        ENGLISH -> enRuSettings
-        RUSSIAN -> ruEnSettings
-        UNKNOWN -> throw IllegalArgumentException("source lang is UNKNOWN")
     }
 
     private fun trainType(sourceLang: Language) = (when (sourceLang) {

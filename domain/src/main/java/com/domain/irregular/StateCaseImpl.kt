@@ -58,7 +58,7 @@ class StateCaseImpl @Inject constructor(
         }
     }
 
-    override fun isMute() = settings.isMute()
+    override fun isMute() = settings.isMute(IRREGULAR)
 
     override suspend fun checkOrNext(infinitive: String, past: String, pp: String): Boolean {
         if (verified) {
@@ -98,7 +98,7 @@ class StateCaseImpl @Inject constructor(
         irregulars.prepare() // TODO
         images.prepare() // TODO
 
-        val count = settings.count()
+        val count = settings.count(IRREGULAR)
         val ids = results.minResult(IRREGULAR, count)
 
         val verbs = irregulars.verbs()

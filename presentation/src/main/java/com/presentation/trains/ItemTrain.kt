@@ -9,10 +9,12 @@ fun TrainType.toTextRes() = when (this) {
     TRANSLATION_EN_RU -> R.string.en_ru
     TRANSLATION_RU_EN -> R.string.ru_en
     IRREGULAR -> R.string.irregular_verbs
+    AUDITION -> R.string.audition
 }
 
 fun TrainType.toIconRes() = when (this) {
     CONSTRUCTOR -> R.drawable.ic_constructor
     TRANSLATION_EN_RU, TRANSLATION_RU_EN -> R.drawable.ic_translation
     IRREGULAR -> R.drawable.ic_irregular
+    AUDITION -> R.drawable.ic_volume_high
 }

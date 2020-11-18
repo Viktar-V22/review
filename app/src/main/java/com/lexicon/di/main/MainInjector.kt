@@ -1,11 +1,13 @@
 package com.lexicon.di.main
 
 import androidx.fragment.app.Fragment
+import com.lexicon.di.audition.DaggerAuditionComponent
 import com.lexicon.di.constructor.DaggerConstructorComponent
 import com.lexicon.di.glossary.DaggerGlossaryComponent
 import com.lexicon.di.irregular.DaggerIrregularComponent
 import com.lexicon.di.trains.DaggerTrainsComponent
 import com.lexicon.di.translation.DaggerTranslationComponent
+import com.presentation.audition.AuditionFragment
 import com.presentation.constructor.ConstructorFragment
 import com.presentation.glossary.GlossaryFragment
 import com.presentation.irregular.IrregularFragment
@@ -27,6 +29,11 @@ class MainInjector {
                 .inject(fragment)
 
             is IrregularFragment -> DaggerIrregularComponent.builder()
+                .mainComponent(mainComponent)
+                .build()
+                .inject(fragment)
+
+            is AuditionFragment -> DaggerAuditionComponent.builder()
                 .mainComponent(mainComponent)
                 .build()
                 .inject(fragment)

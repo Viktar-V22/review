@@ -11,8 +11,9 @@ import com.interactors.constructor.ItemLetter
 import com.interactors.constructor.Letter
 import com.interactors.constructor.State
 import java.util.*
+import javax.inject.Inject
 
-class StateCaseImpl(
+class StateCaseImpl @Inject constructor(
     private val words: WordsRepository,
     private val images: ImagesRepository,
     private val results: TrainsResultRepository,
@@ -58,7 +59,7 @@ class StateCaseImpl(
 
     override fun en() = if (allWords.isNotEmpty()) allWords.first.en else ""
 
-    override fun isMute() = settings.isMute()
+    override fun isMute() = settings.isMute(CONSTRUCTOR)
 
     private fun next() {
         if (allWords.isNotEmpty()) allWords.removeFirst()
@@ -74,7 +75,7 @@ class StateCaseImpl(
         words.prepare() // TODO
         images.prepare() // TODO
 
-        val count = settings.count()
+        val count = settings.count(CONSTRUCTOR)
         val ids = results.minResult(CONSTRUCTOR, count)
 
         allWords.addAll(words.words(ids).shuffled())

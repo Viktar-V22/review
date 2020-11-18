@@ -57,6 +57,6 @@ class TrainsResultRepositoryImpl @Inject constructor(
 
     private suspend fun allIds(type: TrainType) = when (type) {
         IRREGULAR -> irregulars.getAllIds()
-        TRANSLATION_EN_RU, TRANSLATION_RU_EN, CONSTRUCTOR -> words.getAllIds()
+        TRANSLATION_EN_RU, TRANSLATION_RU_EN, CONSTRUCTOR, AUDITION -> words.getAllIds()
     }
 }

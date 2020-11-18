@@ -34,5 +34,8 @@ fun RecyclerView.bindScrollTo(position: Int) {
 
 @BindingAdapter("offsetVertical", "offsetHorizontal", requireAll = false)
 fun RecyclerView.bindOffset(vertical: Float = 0f, horizontal: Float = 0f) {
-    addItemDecoration(OffsetItemDecoration(vertical.toInt(), horizontal.toInt()))
+    val already = (0 until itemDecorationCount)
+        .firstOrNull { getItemDecorationAt(it) is OffsetItemDecoration } != null
+
+    if (!already) addItemDecoration(OffsetItemDecoration(vertical.toInt(), horizontal.toInt()))
 }

@@ -19,11 +19,15 @@
     <string name="constructor">Constructor</string>
     <string name="ru_en">RU-EN</string>
     <string name="en_ru">EN-RU</string>
+    <string name="audition">Audition</string>
 
     <!-- irregular verbs -->
     <string name="infinitive">Infinitive</string>
     <string name="past">Past</string>
     <string name="past_participle">Past Participle</string>
+
+    <!-- audition -->
+    <string name="answer">Answer</string>
 
     <string name="empty_string" translatable="false" />
 </resources>
