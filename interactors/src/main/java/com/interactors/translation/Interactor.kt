@@ -12,9 +12,7 @@ interface Interactor {
 
     suspend fun speech(item: ItemTranslation)
 
-    suspend fun speech()
-
-    suspend fun forceSpeech()
+    suspend fun speech(isForce: Boolean = false)
 
     fun fab()
 }

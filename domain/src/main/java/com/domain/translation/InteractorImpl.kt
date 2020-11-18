@@ -19,11 +19,9 @@ class InteractorImpl @Inject constructor(
 
     override suspend fun speech(item: ItemTranslation) = speech.speech(state.forSpeech(item))
 
-    override suspend fun speech() {
-        if (!state.isMute()) forceSpeech()
+    override suspend fun speech(isForce: Boolean) {
+        if (!state.isMute() || isForce) speech.speech(state.wordSpeech(isForce))
     }
-
-    override suspend fun forceSpeech() = speech.speech(state.wordSpeech())
 
     override fun fab() = state.next()
 }

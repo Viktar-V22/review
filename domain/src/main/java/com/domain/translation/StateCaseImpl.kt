@@ -64,10 +64,8 @@ class StateCaseImpl(
 
     override fun isMute() = settings(sourceLang).isMute()
 
-    override fun wordSpeech() = if (trains.isEmpty()) "" else when (sourceLang) {
-        ENGLISH -> {
-            if (answer.isEmpty() || result(sourceLang, answer) != NONE) trains.first.en else ""
-        }
+    override fun wordSpeech(isForce: Boolean) = if (trains.isEmpty()) "" else when (sourceLang) {
+        ENGLISH -> if (answer.isEmpty() || isForce) trains.first.en else ""
 
         RUSSIAN -> if (answer.isNotEmpty()) {
             if (result(sourceLang, answer).toBoolean() == true) answer else trains.first.en

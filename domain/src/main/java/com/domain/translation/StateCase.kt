@@ -14,7 +14,7 @@ interface StateCase {
 
     fun isMute(): Boolean
 
-    fun wordSpeech(): String
+    fun wordSpeech(isForce: Boolean): String
 
     fun forSpeech(item: ItemTranslation): String
 

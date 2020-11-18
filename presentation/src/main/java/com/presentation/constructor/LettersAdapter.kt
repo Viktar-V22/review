@@ -11,6 +11,7 @@ import com.presentation.databinding.ItemLetterBinding
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.channels.BroadcastChannel
+import kotlinx.coroutines.flow.asFlow
 import java.util.*
 import javax.inject.Inject
 
@@ -23,7 +24,7 @@ class LettersAdapter @Inject constructor() : BaseAdapter<ItemLetter>() {
 
     @FlowPreview
     @ExperimentalCoroutinesApi
-    val letters = letterChannel.safeClicks()
+    val letters = letterChannel.safeClicks(200)
 
     @ExperimentalCoroutinesApi
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {

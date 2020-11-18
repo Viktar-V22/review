@@ -44,9 +44,7 @@ class TranslationViewModel(
 
     fun speech(isForce: Boolean = true) {
         speech?.cancel()
-        speech = viewModelScope.launch {
-            if (isForce) interactor.forceSpeech() else interactor.speech()
-        }
+        speech = viewModelScope.launch { interactor.speech(isForce) }
     }
 
     private fun refreshState() {

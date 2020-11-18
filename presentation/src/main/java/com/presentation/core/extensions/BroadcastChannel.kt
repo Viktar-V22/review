@@ -7,4 +7,4 @@ import kotlinx.coroutines.flow.asFlow
 
 @FlowPreview
 @ExperimentalCoroutinesApi
-fun <T> BroadcastChannel<T>.safeClicks() = asFlow().throttleFirst(500)
+fun <T> BroadcastChannel<T>.safeClicks(duration: Long = 300) = asFlow().throttleFirst(duration)

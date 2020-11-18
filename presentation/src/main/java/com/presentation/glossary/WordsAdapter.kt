@@ -27,7 +27,7 @@ class WordsAdapter @Inject constructor() : BaseAdapter<ItemWord>() {
 
     @FlowPreview
     @ExperimentalCoroutinesApi
-    val check = checkChannel.asFlow()
+    val check = checkChannel.safeClicks(200)
 
     @FlowPreview
     @ExperimentalCoroutinesApi

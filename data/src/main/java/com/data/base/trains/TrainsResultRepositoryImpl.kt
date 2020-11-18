@@ -8,6 +8,8 @@ import com.core.common.isPositive
 import com.data.base.db.irregulars.IrregularVerbsDao
 import com.data.base.db.trains.TrainsResultDao
 import com.data.base.db.words.WordsDao
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 class TrainsResultRepositoryImpl @Inject constructor(
@@ -16,11 +18,11 @@ class TrainsResultRepositoryImpl @Inject constructor(
     private val words: WordsDao
 ) : TrainsResultRepository {
 
-    override suspend fun minResult(trainType: TrainType, count: Int): Set<Long> {
+    override suspend fun minResult(trainType: TrainType, count: Int) = withContext(Dispatchers.IO) {
         val all = allIds(trainType).toSet()
         val realCount = if (count != -1) all.size.coerceAtMost(count) else count
 
-        return if (count == -1) all else {
+        if (count == -1) all else {
             val min = results.getAll()
             val minIds = min.map { it.id }
 
@@ -47,10 +49,11 @@ class TrainsResultRepositoryImpl @Inject constructor(
         }
     }
 
-    override suspend fun store(id: Long, trainType: TrainType, result: Result) {
-        val type = trainType.toString()
-        if (result.isPositive()) results.increase(id, type) else results.decrease(id, type)
-    }
+    override suspend fun store(id: Long, trainType: TrainType, result: Result) =
+        withContext(Dispatchers.IO) {
+            val type = trainType.toString()
+            if (result.isPositive()) results.increase(id, type) else results.decrease(id, type)
+        }
 
     private suspend fun allIds(type: TrainType) = when (type) {
         IRREGULAR -> irregulars.getAllIds()
